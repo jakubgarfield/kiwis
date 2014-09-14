@@ -1,0 +1,7 @@
+<%= atom_feed :limit => 10,
+  :articles => sorted_articles,
+  :title => 'Kiwis on the road :: Barbora Hájková & Jakub Chodounský',
+  :author_name => 'Barbora Hájková & Jakub Chodounský',
+  :author_uri => 'http://kiwis.chodounsky.net',
+  :content_proc => lambda { |article| article.compiled_content }
+%>

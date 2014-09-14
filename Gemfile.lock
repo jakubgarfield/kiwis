@@ -1,0 +1,52 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    adsf (1.2.0)
+      rack (>= 1.0.0)
+    builder (3.2.2)
+    byebug (3.1.2)
+      columnize (~> 0.8)
+      debugger-linecache (~> 1.2)
+    colored (1.2)
+    columnize (0.8.9)
+    cri (2.6.1)
+      colored (~> 1.2)
+    debugger-linecache (1.2.0)
+    execjs (2.2.0)
+    exifr (1.1.3)
+    highline (1.6.21)
+    json (1.8.1)
+    kramdown (1.4.0)
+    mini_portile (0.6.0)
+    nanoc (3.7.1)
+      cri (~> 2.3)
+    nokogiri (1.6.3.1)
+      mini_portile (= 0.6.0)
+    rack (1.5.2)
+    rainpress (1.0)
+    rubypants (0.2.0)
+    rubyzip (1.1.4)
+    stringex (2.5.2)
+    typogruby (1.0.16)
+      rubypants
+    uglifier (2.5.0)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  adsf
+  builder
+  byebug
+  exifr
+  highline
+  kramdown
+  nanoc
+  nokogiri
+  rainpress
+  rubyzip
+  stringex
+  typogruby
+  uglifier

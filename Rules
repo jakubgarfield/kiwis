@@ -1,0 +1,66 @@
+#!/usr/bin/env ruby
+
+# A few helpful tips about the Rules file:
+#
+# * The string given to #compile and #route are matching patterns for
+#   identifiers--not for paths. Therefore, you can’t match on extension.
+#
+# * The order of rules is important: for each item, only the first matching
+#   rule is applied.
+#
+# * Item identifiers start and end with a slash (e.g. “/about/” for the file
+#   “content/about.html”). To select all children, grandchildren, … of an
+#   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
+#   because “*” matches zero or more characters.
+
+preprocess do
+end
+
+compile "/trips/*" do
+  if item[:extension] == "md"
+    filter :kramdown
+    filter :typogruby
+    layout "trip"
+  elsif item[:extension] == "kml"
+    filter :geolocate
+  end
+end
+
+compile "/feed" do
+  filter :erb
+end
+
+compile %r{/resources/(css|js)/*} do
+end
+
+compile "/resources/*" do
+  unless item.binary?
+    filter :erb
+    filter :rainpress if item[:extension] == "css"
+    filter :uglify_js if item[:extension] == "js"
+  end
+end
+
+compile "*" do
+  unless item.binary?
+    filter :erb
+    filter :kramdown if item[:extension] == "md"
+    filter :typogruby
+    layout "page"
+  end
+end
+
+route %r{/resources/(css|js)/*} do
+end
+
+route "*" do
+  if item.binary? || ["css", "js"].include?(item[:extension])
+    item.identifier.chop + "." + item[:extension]
+  elsif item[:extension] == "kml"
+    item.identifier.chop + ".kmz"
+  else
+    item.identifier + "index.html"
+  end
+end
+
+layout "*", :erb

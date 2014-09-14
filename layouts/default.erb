@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jakub Chodounský and Barbora Hájková" />
+    <title><%= @item[:title] %> :: Kiwis on the road :: A travel diary of two</title>
+    <meta name="description" content="<%= @item[:description] %>" />
+    <meta name="keywords" content="<%= @item[:tags] ? @item[:tags].join(", ") : "travelling" %>, trips, tracks, travel journal, travel diary" />
+    <meta name="robots" content="all, follow" />
+    <meta property="og:title" content="<%= @item[:title] %>">
+    <meta property="og:description" content="<%= @item[:description] %>">
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@jakubgarfield" />
+    <meta property="twitter:title" content="<%= @item[:title] %>" />
+    <meta property="twitter:description" content="<%= @item[:description] %>" />
+    <% if @item[:image] %>
+      <meta property="twitter:image" content="http://kiwis.chodounsky.net<%= @item[:image] %>" />
+      <meta property="og:image" content="http://kiwis.chodounsky.net<%= @item[:image] %>">
+    <% end %>
+    <meta property="twitter:url" content="http://kiwis.chodounsky.net<%= @item.path %>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/resources/styles.css">
+    <link rel="alternate" type="application/atom+xml" title="Kiwis on the road" href="/feed/" />
+  </head>
+  <body>
+    <header>
+      <h1><%= link_to("Kiwis on the road", "/") %></h1>
+      <nav>
+        <ul>
+          <li><%= link_to("archive", "/archive/") %> &middot; </li>
+          <li><%= link_to("tags", "/tags/") %></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <%= yield %>
+    </main>
+
+    <footer>
+      <p>&copy; 2014<br />Barbora Hájková &amp; <a href="http://chodounsky.net">Jakub Chodounský</a><br /><%= link_to("RSS", "/feed/") %> &middot; <%= link_to("Privacy Policy", "/privacy-policy/") %></p>
+    </footer>
+    <!--[if lt IE 9]><script>document.createElement('header'); document.createElement('nav'); document.createElement('section'); document.createElement('article'); document.createElement('aside');document.createElement('footer');document.createElement('main');</script><![endif]-->
+    <script language="javascript" type="text/javascript" src="/resources/scripts.js"></script>
+    <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-4728303-4', 'auto'); ga('send', 'pageview'); </script>
+  </body>
+</html>

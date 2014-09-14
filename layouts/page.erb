@@ -1,0 +1,12 @@
+<% render "default" do %>
+  <article class="page">
+    <% if @item[:title] %>
+      <header>
+        <h1><%= @item[:title] %></h1>
+      </header>
+    <% end %>
+    <div class="content">
+      <%= yield %>
+    </div>
+  </article>
+<% end %>

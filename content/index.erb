@@ -1,0 +1,18 @@
+---
+title: Trips
+---
+
+<section class="listing">
+  <% sorted_articles.take(5).each do |post| %>
+    <article>
+      <header>
+        <h1><%= link_to post[:title], post.path %></h1>
+        <%= post_metadata(post) %>
+      </header>
+      <p><%= post[:description] %></p>
+      <p><a href="<%= post.path %>">read more &#8594;</a></p>
+    </article>
+  <% end %>
+</section>
+
+<p class="pull-left"><a href="/archive/">&larr;&nbsp;Older</a></p>
