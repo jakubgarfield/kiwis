@@ -14,8 +14,8 @@
     <meta property="twitter:title" content="<%= @item[:title] %>" />
     <meta property="twitter:description" content="<%= @item[:description] %>" />
     <% if @item[:image] %>
-      <meta property="twitter:image" content="http://barakuba.com<%= @item[:image] %>" />
-      <meta property="og:image" content="http://barakuba.com<%= @item[:image] %>">
+      <meta property="twitter:image" content="http://barakuba.com<%= "#{@item.path}#{@item[:image]}" %>.jpg" />
+      <meta property="og:image" content="http://barakuba.com<%= "#{@item.path}#{@item[:image]}" %>.jpg">
     <% end %>
     <meta property="twitter:url" content="http://barakuba.com<%= @item.path %>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
