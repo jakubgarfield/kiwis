@@ -54,7 +54,7 @@
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         var map = new google.maps.Map(map_canvas, map_options);
-        var kml = new google.maps.KmlLayer("http://kiwis.chodounsky.net<%= @item.identifier %>doc.kmz");
+        var kml = new google.maps.KmlLayer("http://barakuba.com<%= @item.identifier %>doc.kmz");
         kml.setMap(map);
       }
     }

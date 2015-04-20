@@ -104,7 +104,7 @@ class GeolocationFilter < Nanoc::Filter
   def marker_style_node
     "<Style id='photo'><IconStyle>
       <scale>1</scale>
-      <Icon><href>http://kiwis.chodounsky.net/resources/img/photo.png</href></Icon>
+      <Icon><href>http://barakuba.com/resources/img/photo.png</href></Icon>
       <hotSpot x='20' y='2' xunits='pixels' yunits='pixels'/>
     </IconStyle></Style>"
   end
@@ -113,7 +113,7 @@ class GeolocationFilter < Nanoc::Filter
     "<Placemark><Point><coordinates>#{data[:gps].longitude},#{data[:gps].latitude}</coordinates></Point>
       <styleUrl>#photo</styleUrl>
       <name>#{data[:name]}</name>
-      <description><![CDATA[<img src='http://kiwis.chodounsky.net#{@item.parent.identifier}#{data[:name]}_t240.jpg'/> ]]></description>
+      <description><![CDATA[<img src='http://barakuba.com#{@item.parent.identifier}#{data[:name]}_t240.jpg'/> ]]></description>
     </Placemark>"
   end
 end
