@@ -4,7 +4,7 @@ created_at: 2014-08-31 00:00:00 +1200
 description: A short loop in East Harbour Regional Park 45 minutes drive from Wellington.
 kind: article
 tags: [New Zealand, Wellington, East Harbour Regional Park, Short, Loop]
-image: /trips/2014/08/31/east-harbour-regional-park/11.jpg
+image: 11
 ---
 
 Initially, we planned to make a bigger trip to Castle Point but after a hard Friday night and my tiny hangover on Saturday morning we had to change our plans.

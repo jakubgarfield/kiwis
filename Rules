@@ -29,6 +29,7 @@ end
 
 compile "/trips/*" do
   if item[:extension] == "md"
+    filter :convert_image_markup
     filter :kramdown
     filter :typogruby
     layout "trip"

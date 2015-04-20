@@ -4,7 +4,7 @@ created_at: 2015-02-28 12:00:00 +1300
 description: An amazing surfing trip to one of our most favorite beaches on the North Island.
 kind: article
 tags: [New Zealand, Masterton, Castlepoint, Surf, Trip]
-image: /trips/2015/02/28/castlepoint-surf-trip/19.jpg
+image: 19
 ---
 
 An exceptionally beautiful weekend. Sunny and warm. Since Christmas, Wellington summer has been really nice but mostly during the working week. As soon as the hard working days end, the sun comes down as well. Luckily not this time.

@@ -4,7 +4,7 @@ created_at: 2014-09-07 00:00:00 +1200
 description: A two day road trip from Wellington to Tora Beach with stops at Greytown and Martinborough.
 kind: article
 tags: [New Zealand, Wairarapa, Tora Beach, Road trip, Greytown, Martinborough, Cape Palliser]
-image: /trips/2014/09/07/tora-beach-road-trip/17.jpg
+image: 17
 ---
 Even if winter should have officially finished, the weather last weekend still reminded us once again that we would have to wait a little bit longer for warm sunny days. Because of that we had to again change our walking track plans for road trip.
 

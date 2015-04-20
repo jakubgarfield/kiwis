@@ -4,7 +4,7 @@ created_at: 2015-02-15 17:28:42 +1300
 description: That was our first trip in New Year if I don't take the trip to Auckland with my mum and brother into account.
 kind: article
 tags: [New Zealand, Kapiti, Kapakapanui, Track, Tip top, Hut, 2 days]
-image: /trips/2015/02/15/kapakapanui-track/12.jpg
+image: 12
 ---
 
 That was our first trip in New Year if I don't take the trip to Auckland with my mum and brother into account.

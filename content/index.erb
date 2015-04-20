@@ -9,6 +9,9 @@ title: Trips
         <h1><%= link_to post[:title], post.path %></h1>
         <%= post_metadata(post) %>
       </header>
+      <section class="image">
+        <a href="<%= post.path %>"><img src="<%= "#{post.path}#{post[:image]}" %>_t640.jpg" width="640" height="480" /></a>
+      </section>
       <p><%= post[:description] %></p>
       <p><a href="<%= post.path %>">read more &#8594;</a></p>
     </article>

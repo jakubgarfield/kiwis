@@ -42,6 +42,19 @@ def has_kml?(item)
   File.exists?("content" + item.path + "doc.kml")
 end
 
+class ConvertImageMarkup < Nanoc::Filter
+  identifier :convert_image_markup
+  type :text
+
+  def run(content, params = {})
+    regex = /(!\[.*?\]\()(.*?)(\))/
+
+    content.gsub(regex) do
+      $1 + @item.path + $2 + "_t640.jpg" + $3
+    end
+  end
+end
+
 require 'mini_magick'
 class ResizeImage < Nanoc::Filter
   identifier :resize_image
