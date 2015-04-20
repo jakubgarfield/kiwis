@@ -4,7 +4,6 @@ created_at: 2015-04-13 21:30:50 +1300
 description: Today's article is not about any of our adventures into the wild nature or sunny surf trip to the coast but about place right here in Wellington. The place where we train our muscles to be able to paddle in the stormy waves and resist to Wellington's mighty gales.
 kind: article
 tags: [New Zealand, Wellington, Gym, Kettlebell, Training]
-hide_map: true
 image: /trips/2015/04/13/wellington-gym/12.jpg
 ---
 

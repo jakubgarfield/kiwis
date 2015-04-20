@@ -16,6 +16,17 @@
 preprocess do
 end
 
+[{ width: 640, quality: 75 }, { width: 240, quality: 60 }].each do |params|
+  rep = "t#{params[:width]}".to_sym
+  compile "/trips/*", rep: rep do
+    filter :resize_image, params if item[:extension] == "jpg"
+  end
+
+  route "/trips/*", rep: rep do
+    item.identifier.chop + "_t#{params[:width]}.jpg" if item[:extension] == "jpg"
+  end
+end
+
 compile "/trips/*" do
   if item[:extension] == "md"
     filter :kramdown

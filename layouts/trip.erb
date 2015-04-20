@@ -6,14 +6,14 @@
     </header>
 
     <section class="image">
-      <img src="<%= @item[:image] %>" />
+      <img src="<%= @item[:image] %>" width="960" height="640" />
     </section>
 
     <section class="content">
       <%= yield %>
     </section>
 
-    <% unless @item[:hide_map] %>
+    <% if show_map?(@item) %>
       <section class="map">
         <div id="map-canvas"></div>
       </section>
@@ -21,7 +21,7 @@
 
     <section class="gallery" id="gallery-container">
       <% images_for(@item).each do |image| %>
-        <a href="<%= image.path.gsub("preview_", "") %>"><img src="<%= image.path %>" width="240" /></a>
+        <a href="<%= image.path %>"><img src="<%= image.path(rep: :t240) %>" /></a>
       <% end %>
     </section>
 
@@ -44,13 +44,13 @@
   </div>
   <script type="text/javascript"> var disqus_shortname = 'kiwischodounskynet'; (function() { var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })(); </script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></noscript>
   <script src="https://maps.googleapis.com/maps/api/js"></script>
-  <% unless @item[:hide_map]  %>
+  <% if show_map?(@item) %>
     <script>
     function initialize() {
       var map_canvas = document.getElementById("map-canvas");
       if (map_canvas) {
         var map_options = {
-          zoom: 16,
+          zoom: <%= @item[:map_zoom] ? @item[:map_zoom] : 16 %>,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         var map = new google.maps.Map(map_canvas, map_options);

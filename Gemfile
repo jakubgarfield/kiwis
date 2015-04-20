@@ -12,5 +12,7 @@ gem "typogruby"
 gem "exifr"
 gem "nokogiri"
 gem 'rubyzip'
+gem "mini_magick"
 
+gem "guard-nanoc"
 gem "byebug"

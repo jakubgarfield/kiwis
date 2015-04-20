@@ -8,7 +8,7 @@ include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::LinkTo
 
 def images_for(item)
-  item.children.select { |i| i[:extension] == "jpg" && i.identifier.include?("preview") }.to_a
+  item.children.select { |i| i[:extension] == "jpg" }.to_a
 end
 
 def post_metadata(post)
@@ -32,6 +32,27 @@ end
 
 def full_path(item)
   "" + item.identifier
+end
+
+def show_map?(item)
+  item[:map_coordinates] || has_kml?(item)
+end
+
+def has_kml?(item)
+  File.exists?("content" + item.path + "doc.kml")
+end
+
+require 'mini_magick'
+class ResizeImage < Nanoc::Filter
+  identifier :resize_image
+  type :binary
+
+  def run(filename, params = {})
+    image = MiniMagick::Image.open(filename)
+    image.quality(params.fetch(:quality, 90).to_s)
+    image.resize("#{params[:width]}x")
+    image.write(output_filename)
+  end
 end
 
 require 'nokogiri'
