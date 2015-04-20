@@ -27,6 +27,10 @@ end
   end
 end
 
+compile 'sitemap' do
+  filter :erb
+end
+
 compile "/trips/*" do
   if item[:extension] == "md"
     filter :convert_image_markup
@@ -60,6 +64,15 @@ compile "*" do
     filter :typogruby
     layout "page"
   end
+end
+
+
+route 'sitemap' do
+  item.identifier.chop + '.xml'
+end
+
+route 'robots' do
+  item.identifier.chop + ".txt"
 end
 
 route %r{/resources/(css|js)/*} do

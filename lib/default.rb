@@ -6,6 +6,7 @@ include Nanoc3::Helpers::Blogging
 include Nanoc3::Helpers::Tagging
 include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::LinkTo
+include Nanoc3::Helpers::XMLSitemap
 
 def images_for(item)
   item.children.select { |i| i[:extension] == "jpg" }.to_a

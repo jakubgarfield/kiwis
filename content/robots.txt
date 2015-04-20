@@ -1,0 +1,4 @@
+User-agent: *
+
+Allow: /
+Sitemap:http://www.barakuba.com/sitemap.xml
