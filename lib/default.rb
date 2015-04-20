@@ -113,7 +113,7 @@ class GeolocationFilter < Nanoc::Filter
     "<Placemark><Point><coordinates>#{data[:gps].longitude},#{data[:gps].latitude}</coordinates></Point>
       <styleUrl>#photo</styleUrl>
       <name>#{data[:name]}</name>
-      <description><![CDATA[<img src='http://kiwis.chodounsky.net#{@item.parent.identifier}preview_#{data[:name]}.jpg'/> ]]></description>
+      <description><![CDATA[<img src='http://kiwis.chodounsky.net#{@item.parent.identifier}#{data[:name]}_t400.jpg'/> ]]></description>
     </Placemark>"
   end
 end
