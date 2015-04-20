@@ -67,7 +67,7 @@ end
 
 route "*" do
   if item.binary? || ["css", "js"].include?(item[:extension])
-    item.identifier.chop + "." + item[:extension]
+    item.identifier.chop + (item[:extension].nil? ? "" : ("." + item[:extension]))
   elsif item[:extension] == "kml"
     item.identifier.chop + ".kmz"
   else
