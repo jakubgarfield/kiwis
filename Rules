@@ -31,6 +31,9 @@ compile 'sitemap' do
   filter :erb
 end
 
+compile '/favicon/*' do
+end
+
 compile "/trips/*" do
   if item[:extension] == "md"
     filter :convert_image_markup
@@ -73,6 +76,10 @@ end
 
 route 'robots' do
   item.identifier.chop + ".txt"
+end
+
+route '/favicon/*' do
+  item.identifier.chop.gsub("favicon/", "") + "." + item[:extension]
 end
 
 route %r{/resources/(css|js)/*} do
