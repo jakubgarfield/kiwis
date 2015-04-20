@@ -32,9 +32,9 @@ run do |opts, args, cmd|
   # convert the created_at parameter to a Time object or use now
   timestamp = DateTime.parse(opts[:created_at]).to_time rescue Time.now
 
-  directory = "content/trips/#{timestamp.year}"
-  filename = directory + "/#{timestamp.strftime('%Y-%m-%d')}-#{name.to_url}.md"
-  Dir.mkdir(directory) unless Dir.exist?(directory)
+  directory = "content/trips/#{timestamp.year}/#{ format('%02d', timestamp.month) }/#{ format('%02d', timestamp.day) }/#{name.to_url}"
+  filename = directory + "/index.md"
+  FileUtils.mkdir_p(directory) unless Dir.exist?(directory)
   if File.exist?(filename) && line.ask("#{filename} already exists. Want to overwrite? (y/n)", ['y','n']) == 'n'
 
     # user pressed 'n', abort!
@@ -50,7 +50,6 @@ run do |opts, args, cmd|
     post.puts "created_at: #{timestamp}"
     post.puts "description: #{description}"
     post.puts "kind: article"
-    post.puts "preview: true"
     post.puts "tags: #{tags.inspect}"
     post.puts "---\n\n"
   end
