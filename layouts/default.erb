@@ -7,16 +7,18 @@
     <meta name="description" content="<%= @item[:description] %>" />
     <meta name="keywords" content="<%= @item[:tags] ? @item[:tags].join(", ") : "travelling" %>, trips, tracks, travel journal, travel diary" />
     <meta name="robots" content="all, follow" />
+    <meta property="og:type" content="article" />
     <meta property="og:title" content="<%= @item[:title] %>">
     <meta property="og:description" content="<%= @item[:description] %>">
+    <meta property="og:url" content="http://barakuba.com<%= @item.path  %>" />
+    <% if @item[:image] %>
+      <meta property="og:image" content="http://barakuba.com<%= "#{@item.path}#{@item[:image]}" %>.jpg">
+      <meta property="twitter:image" content="http://barakuba.com<%= "#{@item.path}#{@item[:image]}" %>.jpg" />
+    <% end %>
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:site" content="@jakubgarfield" />
     <meta property="twitter:title" content="<%= @item[:title] %>" />
     <meta property="twitter:description" content="<%= @item[:description] %>" />
-    <% if @item[:image] %>
-      <meta property="twitter:image" content="http://barakuba.com<%= "#{@item.path}#{@item[:image]}" %>.jpg" />
-      <meta property="og:image" content="http://barakuba.com<%= "#{@item.path}#{@item[:image]}" %>.jpg">
-    <% end %>
     <meta property="twitter:url" content="http://barakuba.com<%= @item.path %>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>
