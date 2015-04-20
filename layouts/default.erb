@@ -2,28 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="author" content="Jakub Chodounský and Barbora Hájková" />
+    <meta name="author" content="Jakub Chodounský and Barbora Hájková">
     <title><%= @item[:title] %> :: Bára and Kuba on the road :: A travel diary of two</title>
-    <meta name="description" content="<%= @item[:description] %>" />
-    <meta name="keywords" content="<%= @item[:tags] ? @item[:tags].join(", ") : "travelling" %>, trips, tracks, travel journal, travel diary" />
-    <meta name="robots" content="all, follow" />
-    <meta property="og:type" content="article" />
+    <meta name="description" content="<%= @item[:description] %>">
+    <meta name="keywords" content="<%= @item[:tags] ? @item[:tags].join(", ") : "travelling" %>, trips, tracks, travel journal, travel diary">
+    <meta name="robots" content="all, follow">
+    <meta property="og:type" content="article">
     <meta property="og:title" content="<%= @item[:title] %>">
     <meta property="og:description" content="<%= @item[:description] %>">
-    <meta property="og:url" content="http://barakuba.com<%= @item.path  %>" />
+    <meta property="og:url" content="http://barakuba.com<%= @item.path  %>">
     <% if @item[:image] %>
       <meta property="og:image" content="http://barakuba.com<%= "#{@item.path}#{@item[:image]}" %>.jpg">
-      <meta property="twitter:image" content="http://barakuba.com<%= "#{@item.path}#{@item[:image]}" %>.jpg" />
+      <meta property="twitter:image" content="http://barakuba.com<%= "#{@item.path}#{@item[:image]}" %>.jpg">
     <% end %>
-    <meta property="twitter:card" content="summary" />
-    <meta property="twitter:site" content="@jakubgarfield" />
-    <meta property="twitter:title" content="<%= @item[:title] %>" />
-    <meta property="twitter:description" content="<%= @item[:description] %>" />
-    <meta property="twitter:url" content="http://barakuba.com<%= @item.path %>" />
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="@jakubgarfield">
+    <meta property="twitter:title" content="<%= @item[:title] %>">
+    <meta property="twitter:description" content="<%= @item[:description] %>">
+    <meta property="twitter:url" content="http://barakuba.com<%= @item.path %>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/resources/styles.css">
-    <link rel="alternate" type="application/atom+xml" title="Bára & Kuba on the road :: The travel diary of two" href="/feed/" />
+    <link rel="alternate" type="application/atom+xml" title="Bára & Kuba on the road :: The travel diary of two" href="/feed/">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
