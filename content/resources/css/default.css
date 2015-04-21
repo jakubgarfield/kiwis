@@ -20,8 +20,6 @@ td, th { padding: 0.4em; font-size: 0.85em;}
 .table td, .table th { border-bottom: 1px solid #ebebeb;}
 dd { margin: 1em 1.5em;}
 
-
-
 body { width: 960px; margin: auto;}
 article header { text-align: center;}
 article header h1 { margin-top: 0.75em;}
@@ -47,7 +45,6 @@ article footer { width: 800px; margin: 2em auto 2em; }
 .gallery a img { border: 3px solid #ebebeb; border-radius: 3px;}
 .gallery a:hover img { border-color:#8f8f8f;}
 
-
 body > header { text-align: center; color: #d3d3d3;}
 body > header a, body > header a:visited { border-bottom: none; color: #d3d3d3;}
 body > header a:hover { color: #8f8f8f;}
@@ -60,11 +57,18 @@ a:hover, body > header a:hover { border-color: #8f8f8f;}
 .clearfix:before, .clearfix:after, section:before, section:after, footer:before, footer:after, header:before, header:after { display: table; line-height: 0; content: "";}
 .clearfix:after, section:after, footer:after, header:after { clear: both;}
 
-img.about { margin: 0 auto;}
-ul.nav-social { margin: 0em auto; width: 232px;}
-ul.nav-social li { list-style: none;}
-ul.nav-social li a { display: inline-block; height: 48px; width: 48px; text-indent: -9999px; float: left; background-repeat: no; margin-right: 10px;}
-ul.nav-social li a.rss { background-image:url('/resources/img/fc-webicon-rss.png');}
-ul.nav-social li a.linkedin { background-image:url('/resources/img/fc-webicon-linkedin.png');}
-ul.nav-social li a.twitter { background-image:url('/resources/img/fc-webicon-twitter.png');}
-ul.nav-social li a.github { background-image:url('/resources/img/fc-webicon-github.png');}
+@media screen and (max-width: 640px) {
+  html { margin: 0.5em; }
+  body, article footer, .content, .gallery, .map #map-canvas { width: 100%; }
+  main { font-size: 0.85em; }
+  article img { width: 100%;}
+  .gallery img { width: 95px; }
+}
+
+@media screen and (min-width: 641px) and (max-width: 960px) {
+  html { margin: 0.5em; }
+  body, article footer, .map #map-canvas { width: 100%; }
+  article img { width: 100%; }
+  .gallery { width: 640px; }
+  .gallery img { width: 195px; }
+}

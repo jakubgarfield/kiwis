@@ -6,7 +6,7 @@
     </header>
 
     <section class="image">
-      <img src="<%= "#{@item.path}#{@item[:image]}" %>.jpg" width="960" height="720" />
+      <img src="<%= "#{@item.path}#{@item[:image]}" %>.jpg" />
     </section>
 
     <section class="content">
@@ -18,13 +18,13 @@
         <div id="map-canvas"></div>
       </section>
     <% end %>
-
+    <div class="asd">
     <section class="gallery" id="gallery-container">
       <% images_for(@item).each do |image| %>
         <a href="<%= image.path %>"><img src="<%= image.path(rep: :t240) %>" /></a>
       <% end %>
     </section>
-
+    </div>
     <footer>
       <aside><%=  @item[:tags].join(", ") %></aside>
       <section class="comments">
