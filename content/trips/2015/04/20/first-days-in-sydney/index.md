@@ -5,6 +5,8 @@ description: During our first two days in Sydney we cruised the CBD and took a t
 kind: article
 tags: [Australia, Sydney, Harbour Bridge, Darling Harbour, Opera House, Manly Beach]
 image: 15
+map_zoom: 13
+map_coordinates: -33.85231, 151.21079
 ---
 
 After four beautiful days spent in Sydney we are on board of plane heading off to Cairns and I'm trying to write down all the exciting things which we've experienced so far. This is our first trip to Australia and with a little help of Google we've chosen these two cities for our target destinations.

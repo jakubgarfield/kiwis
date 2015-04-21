@@ -5,6 +5,8 @@ description: That was our first trip in New Year if I don't take the trip to Auc
 kind: article
 tags: [New Zealand, Kapiti, Kapakapanui, Track, Tip top, Hut, 2 days]
 image: 12
+map_zoom: 10
+map_coordinates: -40.93333, 175.16667
 ---
 
 That was our first trip in New Year if I don't take the trip to Auckland with my mum and brother into account.
