@@ -8,6 +8,9 @@ include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::LinkTo
 include Nanoc3::Helpers::XMLSitemap
 
+def title_for(item)
+  @item[:title] ? @item[:title] + ":: Bára and Kuba on the road" : "Bára and Kuba on the road"
+end
 def images_for(item)
   item.children.select { |i| i[:extension] == "jpg" }.to_a
 end

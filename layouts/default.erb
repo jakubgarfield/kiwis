@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Jakub Chodounský and Barbora Hájková">
-    <title><%= @item[:title] %> :: Bára and Kuba on the road :: A travel diary of two</title>
+    <title><%= title_for(@item) %> :: A travel diary of two</title>
     <meta name="description" content="<%= @item[:description] %>">
     <meta name="keywords" content="<%= @item[:tags] ? @item[:tags].join(", ") : "travelling" %>, trips, tracks, travel journal, travel diary, itineraries">
     <meta name="robots" content="all, follow">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="<%= @item[:title] %> :: Bára and Kuba on the road">
+    <meta property="og:title" content="<%= title_for(@item) %>">
     <meta property="og:description" content="<%= @item[:description] %>">
     <meta property="og:url" content="http://barakuba.com<%= @item.path  %>">
     <meta property="og:image" content="http://barakuba.com<%= "#{@item[:image] ? @item.path + @item[:image].to_s : "/resources/img/about"}" %>.jpg">
@@ -18,7 +18,7 @@
     <meta property="twitter:creator" content="@jakubgarfield" />
     <meta property="twitter:url" content="http://barakuba.com<%= @item.path  %>">
     <meta property="twitter:description" content="<%= @item[:description] %>">
-    <meta property="twitter:title" content="<%= @item[:title] %> :: Bára and Kuba on the road">
+    <meta property="twitter:title" content="<%= title_for(@item[:title]) %>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/resources/styles.css">
