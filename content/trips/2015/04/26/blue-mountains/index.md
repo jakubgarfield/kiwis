@@ -5,6 +5,8 @@ description: One day trip from Sydney to a beautiful scenery of Blue Mountains. 
 kind: article
 tags: [Australia, Sydney, Blue Mountains, Day Trip, Three Sisters, Trip]
 image: 10
+map_zoom: 13
+map_coordinates: -33.7093447, 150.37586469999997
 ---
 
 Blue Mountains were on the list for day two. On purpose, we chose Sunday for this trip because there is an extra cheap public transport fee on that day. Thus, instead of hiring a car we decided to go there on train. It was a good idea to catch an earlier train as a lot of people had the same plan as we had.
