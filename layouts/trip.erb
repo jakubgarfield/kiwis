@@ -18,13 +18,15 @@
         <div id="map-canvas"></div>
       </section>
     <% end %>
-    <div class="asd">
-    <section class="gallery" id="gallery-container">
-      <% images_for(@item).each do |image| %>
-        <a href="<%= image.path %>"><img src="<%= image.path(rep: :t240) %>" /></a>
-      <% end %>
-    </section>
-    </div>
+
+    <% unless @item[:hide_gallery] %>
+      <section class="gallery" id="gallery-container">
+        <% images_for(@item).each do |image| %>
+          <a href="<%= image.path %>"><img src="<%= image.path(rep: :t240) %>" /></a>
+        <% end %>
+      </section>
+    <% end %>
+
     <footer>
       <aside><%=  @item[:tags].join(", ") %></aside>
       <section class="comments">
@@ -33,15 +35,18 @@
     </footer>
   </article>
 
-  <div id="blueimp-gallery" class="blueimp-gallery">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-  </div>
+  <% unless @item[:hide_gallery] %>
+    <div id="blueimp-gallery" class="blueimp-gallery">
+      <div class="slides"></div>
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+    </div>
+  <% end %>
+
   <script type="text/javascript"> var disqus_shortname = 'kiwischodounskynet'; (function() { var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })(); </script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></noscript>
   <script src="https://maps.googleapis.com/maps/api/js"></script>
   <% if show_map?(@item) %>
