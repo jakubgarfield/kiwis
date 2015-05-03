@@ -9,7 +9,7 @@ include Nanoc3::Helpers::LinkTo
 include Nanoc3::Helpers::XMLSitemap
 
 def title_for(item)
-  (@item[:title] ? @item[:title] + ":: " : " ")  + @site.config[:title]
+  (@item[:title] ? @item[:title] + " | " : "")  + @site.config[:title]
 end
 def images_for(item)
   item.children.select { |i| i[:extension] == "jpg" }.to_a

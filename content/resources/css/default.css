@@ -57,6 +57,12 @@ a:hover, body > header a:hover { border-color: #8f8f8f;}
 .clearfix:before, .clearfix:after, section:before, section:after, footer:before, footer:after, header:before, header:after { display: table; line-height: 0; content: "";}
 .clearfix:after, section:after, footer:after, header:after { clear: both;}
 
+.social ul { margin: 1em auto 2em auto; width: 210px; }
+.social li { width: 100px; list-style: none; display: inline-block; }
+.social .facebook { text-align: left;}
+.social .twitter { text-align: right; }
+.social .fb-share-button { margin-top: -29px; position: absolute; }
+
 @media screen and (max-width: 640px) {
   html { margin: 0.5em; }
   body, article footer, .content, .gallery, .map #map-canvas { width: 100%; }
