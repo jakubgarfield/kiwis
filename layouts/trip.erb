@@ -15,7 +15,7 @@
 
     <section class="social">
       <ul>
-        <li class="facebook"><div class="fb-share-button" data-href="http://barakuba.com<%= @item.path  %>" data-layout="button_count"></div></li>
+        <li class="facebook"><div class="fb-share-button" data-href="<%= page_url(@item)  %>" data-layout="button_count"></div></li>
         <li class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-via="jakubgarfield" data-hashtags="travel">Tweet</a></li>
       </ul>
     </section>
@@ -69,7 +69,7 @@
         var map = new google.maps.Map(map_canvas, map_options);
         <% if has_kml?(@item) %>
           var kml = new google.maps.KmlLayer({
-            url: "http://barakuba.com<%= @item.identifier %>doc.kmz",
+            url: "<%= page_url(@item) %>doc.kmz",
             map: map
           });
         <% end %>

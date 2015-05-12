@@ -42,6 +42,14 @@ def show_map?(item)
   item[:map_coordinates] || has_kml?(item)
 end
 
+def page_url(item)
+  @site.config[:base_url] + item.path
+end
+
+def page_image_url(item)
+  @site.config[:base_url] + (item[:image] ? item.path + item[:image].to_s : "/resources/img/about") + ".jpg"
+end
+
 def has_kml?(item)
   File.exists?("content" + item.path + "doc.kml")
 end
@@ -108,7 +116,7 @@ class GeolocationFilter < Nanoc::Filter
   def marker_style_node
     "<Style id='photo'><IconStyle>
       <scale>1</scale>
-      <Icon><href>http://barakuba.com/resources/img/photo.png</href></Icon>
+      <Icon><href>#{@site.config[:base_url]}/resources/img/photo.png</href></Icon>
       <hotSpot x='20' y='2' xunits='pixels' yunits='pixels'/>
     </IconStyle></Style>"
   end
@@ -117,7 +125,7 @@ class GeolocationFilter < Nanoc::Filter
     "<Placemark><Point><coordinates>#{data[:gps].longitude},#{data[:gps].latitude}</coordinates></Point>
       <styleUrl>#photo</styleUrl>
       <name>#{data[:name]}</name>
-      <description><![CDATA[<img src='http://barakuba.com#{@item.parent.identifier}#{data[:name]}_t240.jpg'/> ]]></description>
+      <description><![CDATA[<img src='#{@site.config[:base_url]}#{@item.parent.identifier}#{data[:name]}_t240.jpg'/> ]]></description>
     </Placemark>"
   end
 end

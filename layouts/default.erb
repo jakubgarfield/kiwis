@@ -10,17 +10,17 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="<%= title_for(@item) %>">
     <meta property="og:description" content="<%= @item[:description] %>">
-    <meta property="og:url" content="http://barakuba.com<%= @item.path  %>">
-    <meta property="og:image" content="http://barakuba.com<%= "#{@item[:image] ? @item.path + @item[:image].to_s : "/resources/img/about"}" %>.jpg">
+    <meta property="og:url" content="<%= page_url(@item) %>">
+    <meta property="og:image" content="<%= page_image_url(@item) %>">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:image:src" content="http://barakuba.com<%= "#{@item[:image] ? @item.path + @item[:image].to_s : "/resources/img/about" }" %>.jpg">
+    <meta property="twitter:image:src" content="<%= page_image_url(@item) %>">
     <meta property="twitter:site" content="@jakubgarfield">
     <meta property="twitter:creator" content="@jakubgarfield" />
-    <meta property="twitter:url" content="http://barakuba.com<%= @item.path  %>">
+    <meta property="twitter:url" content="<%= page_url(@item) %>">
     <meta property="twitter:description" content="<%= @item[:description] %>">
     <meta property="twitter:title" content="<%= title_for(@item[:title]) %>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/resources/styles.css">
     <link rel="alternate" type="application/atom+xml" title="Bára & Kuba on the road :: The travel diary of two" href="/feed/">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
@@ -36,6 +36,7 @@
     <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="canonical" href="<%= page_url(@item) %>">
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
