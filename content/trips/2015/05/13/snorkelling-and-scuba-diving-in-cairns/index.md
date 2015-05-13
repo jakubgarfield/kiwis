@@ -35,7 +35,7 @@ This cruise included our first introductory scuba dive. After brief lecture abou
 ![Sea turtles are amazing creatures](5)
 
 
-After crossing to a different location we spent the rest of the afternoon snorkelling on the reef. The diversity of the reef was incredible and it was definitely much more exciting then the first trip, at least as far as our adrenalin level was concerned.
+After crossing to a different location we spent the rest of the afternoon snorkelling on the reef. The diversity of the reef was incredible and it was definitely much more exciting than the first trip, at least as far as our adrenalin level was concerned.
 
 ![Finally some recognition, but totally misspelled](4)
 
