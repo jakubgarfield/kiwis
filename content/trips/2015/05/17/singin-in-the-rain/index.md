@@ -12,7 +12,7 @@ hide_gallery: true
 
 In the middle of August, I came up with an idea that we could go to the theatre and watch a traditional show. Fortunately tickets for the American classic -- musical *Singin' in the Rain* -- went to pre-sale for next year's April, thus we bought the tickets with the hope that our visas will be sorted by then.
 
-Time passed by like a river in a Rivendell and the April came and I was really excited and looked forward to the play and finally the day came.
+Time passed by like a river in Rivendell and April came and I was really excited and looked forward to the play and finally the day came.
 
 After we arrived to the theatre, there had already been a lot of people standing in the lobby. The ceiling was covered with umbrellas of different sizes and colours. Umbrellas were everywhere! Not forgot to mention there is not much use for them in Wellington apart from ceiling decoration.
 
