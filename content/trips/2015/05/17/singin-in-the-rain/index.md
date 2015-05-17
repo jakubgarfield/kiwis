@@ -26,4 +26,4 @@ The play itself was amazing. The actors' singing was brilliant and along with ta
 
 I highly recommend the musical to everybody who will have a chance to watch it. It was a wonderful evening full of joy and since then every time I say "Good morning!" at the office I heard this song in my head. So, good morning to all!
 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/GB2yiIoEtXw" frameborder="0" allowfullscreen></iframe>
+<div class="youtube"><iframe width="640" height="390" src="https://www.youtube.com/embed/GB2yiIoEtXw" frameborder="0" allowfullscreen></iframe></div>

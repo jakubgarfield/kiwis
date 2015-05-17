@@ -63,6 +63,9 @@ a:hover, body > header a:hover { border-color: #8f8f8f;}
 .social .twitter { text-align: right; }
 .social .fb-share-button { margin-top: -29px; position: absolute; }
 
+.youtube { position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0; }
+.youtube iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
 @media screen and (max-width: 640px) {
   html { margin: 0.5em; }
   body, article footer, .content, .gallery, .map #map-canvas { width: 100%; }
