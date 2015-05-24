@@ -18,7 +18,7 @@ After we arrived to the theatre, there had already been a lot of people standing
 
 The theatre company who was going to perform that night was from UK and only a limited number of performances was available -- the venue was sold out completely.
 
-![The theatre hall before the show](2)
+!![The theatre hall before the show](2)
 
 The theatre hall, which has two balconies and a few boxes, was stunning and pretty decorated. The dress code of the people around, on the other hand, not so much. We are used to go to the theatre quite well dressed as it's considered to be a special social event, but that evening there weren't many people dressed up. The most amazing guy wore a Wellington Huricanes' jersey -- pretty special dress for him I guess.
 

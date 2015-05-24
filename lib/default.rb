@@ -59,10 +59,10 @@ class ConvertImageMarkup < Nanoc::Filter
   type :text
 
   def run(content, params = {})
-    regex = /(!\[.*?\]\()(.*?)(\))/
+    regex = /(!!\[.*?\]\()(.*?)(\))/
 
     content.gsub(regex) do
-      $1 + @item.path + $2 + "_t640.jpg" + $3
+      $1[1..-1] + @item.path + $2 + "_t640.jpg" + $3
     end
   end
 end
