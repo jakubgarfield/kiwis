@@ -3,7 +3,7 @@ title: Pouakai Circuit
 created_at: 2015-07-20 21:06:59 +0200
 description: A multiday trip to Egmont National Part with the ascend to Mt. Taranaki near New Plymouth.
 kind: article
-tags: [New Zealand, Mt. Taranaki, Pouakai Circuit, Weekend Trip, Egmont National Park, Norht Island]
+tags: [New Zealand, Mt. Taranaki, Pouakai Circuit, Weekend Trip, Egmont National Park, North Island]
 image: 9
 map_zoom: 10
 map_coordinates: -39.2967681,174.0633993
