@@ -7,7 +7,6 @@ tags: [New Zealand, Mt. Taranaki, Pouakai Circuit, Weekend Trip, Egmont National
 image: 9
 map_zoom: 10
 map_coordinates: -39.2967681,174.0633993
-hide_gallery: true
 ---
 
 It's been a while since we carried out this track but it's still clearly in my mind. It was one of those trips when we took an advantage of our fully furnished four-wheel hotel and spent the first night in the middle of nowhere. It's always a bit surprising where we gonna wake up the next day because we usually arrive to our overnight spot when it's dark already.

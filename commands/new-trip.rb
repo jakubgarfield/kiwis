@@ -54,7 +54,6 @@ run do |opts, args, cmd|
     post.puts "image: 1"
     post.puts "map_zoom: 13"
     post.puts "map_coordinates: "
-    post.puts "hide_gallery: false"
     post.puts "---\n\n"
   end
 end

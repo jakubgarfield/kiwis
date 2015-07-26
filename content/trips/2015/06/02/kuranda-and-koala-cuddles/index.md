@@ -7,7 +7,6 @@ tags: [Australia, Cairns, Rainforest, Kuranda, Koala, Skyrail]
 image: 2
 map_zoom: 13
 map_coordinates: -16.8189116, 145.63644490000001
-hide_gallery: true
 ---
 
 In Cairns, we interspersed our cruises on Barrier Reef with trips on the mainland. The second day of our stay we planned to go and see the surrounding rainforest. In order to have a better view of the floods of green shades we took advantage of Sky Rainforest Cableway which goes from Cairns to Kuranda, also known as The Village in the Rainforest.

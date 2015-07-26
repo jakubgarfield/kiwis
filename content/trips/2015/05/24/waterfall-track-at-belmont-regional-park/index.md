@@ -6,7 +6,6 @@ kind: article
 tags: [New Zealand, Wellington, Belmont Regional Park, Waterfall, Short Track]
 image: 1
 map_zoom: 13
-hide_gallery: true
 ---
 
 Since we've been a bit limited by Jakub's knee we've had to choose our trips more carefully as far as length and difficulty is concerned. That's why we made this walk which should have taken only about one hour. It should be noted right at the beginning that Jakub has chosen this track.

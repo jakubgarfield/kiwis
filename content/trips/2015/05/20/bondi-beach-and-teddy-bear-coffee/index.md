@@ -7,7 +7,6 @@ tags: [Australia, Sydney, Bondi Beach, Coogee Beach, Parrot, Coffee]
 image: 3
 map_zoom: 13
 map_coordinates: -33.8908435, 151.2742906
-hide_gallery: true
 ---
 
 The last day in Sydney we decided to devote to a walk along the coast line. Sydney offers a wide selection of various city walks and we'd chosen the one that started at Bondi Beach and followed the coast line to Coogee Beach.

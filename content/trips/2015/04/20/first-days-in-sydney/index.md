@@ -33,6 +33,8 @@ It was raining. Slightly, but it was raining. We’d ran from Wellington to enjo
 
 We started the day with visiting a local market. Fruit, vegetable, meat, fish, pastry, flowers, doggie biscuits. The perfect place where we could enjoy a breakfast - a croissant and fresh juice.
 
+!![](5)
+
 Afterwards, we took a train to the Darlington Harbour to see the Harbour Bridge and the Sydney Opera House. On the train we had to look like the lost tourists as we were mumbling and staring on the train lines map and a woman immediately asked us whether we need some help. Nice people here :-).
 
 !![He was selling twelve types of tomatoes!](4)
@@ -42,6 +44,8 @@ In harbour we spent some time strolling around. We made one unsuccessful attempt
 !![Bara with Harbour Bridge](8)
 
 After that we cruised on city’s ferry to Manly. There was a great view of entire harbour from ferry for whole time of cruise until we got to the point where the harbour is open to the ocean. On that day, in fact, we experienced the enormous swell as the driver informed us. Finally, in Manly we got off the ferry with a bit sick faces but alive. A friendly woman in an information centre equipped us with all kind of different maps and we were ready to set off. But firstly we needed some energy so we had brunch in a recommended small but nice cafe called The Moustache. They served yummy meals.
+
+!![](10)
 
 During the walk along Manly beach we watched the surfers fighting with rough sea but after a while we had to give it up and walked back towards ferry because the rain started to be heavy. The rest of the afternoon we spent around the Opera House and the Royal Botanic Garden, which is a nice relaxing oasis just right next to the busy city center.
 

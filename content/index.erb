@@ -10,7 +10,7 @@ description: "A site about travelling and living in foreign countries. Full of p
         <%= post_metadata(post) %>
       </header>
       <section class="image">
-        <a href="<%= post.path %>"><img src="<%= "#{post.path}#{post[:image]}" %>_t640.jpg" /></a>
+        <a href="<%= post.path %>"><img src="<%= image_path(post, post[:image]) %>" /></a>
       </section>
       <p><%= post[:description] %></p>
       <p><a href="<%= post.path %>">read more &#8594;</a></p>

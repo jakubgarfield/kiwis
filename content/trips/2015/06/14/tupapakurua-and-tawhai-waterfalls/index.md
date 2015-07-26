@@ -7,7 +7,6 @@ tags: [New Zealand, Tongariro National Park, Tupapapkurua Falls, Tawhai Falls, W
 image: 2
 map_zoom: 13
 map_coordinates: -39.3454545, 175.48938
-hide_gallery: true
 ---
 
 Never trust New Zealand's weather forecast! On Saturday we woke up and the sun was bashfully shining behind the clouds. Where is the strong wind, clouds and rain from the forecast?

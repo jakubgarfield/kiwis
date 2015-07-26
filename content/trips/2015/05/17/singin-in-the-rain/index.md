@@ -7,7 +7,6 @@ tags: [Wellington, New Zealand, Culture, Theatre, Musical, St. James Theatre, Si
 image: 1
 map_zoom: 17
 map_coordinates: -41.293164, 174.779675
-hide_gallery: true
 ---
 
 In the middle of August, I came up with an idea that we could go to the theatre and watch a traditional show. Fortunately tickets for the American classic -- musical *Singin' in the Rain* -- went to pre-sale for next year's April, thus we bought the tickets with the hope that our visas will be sorted by then.

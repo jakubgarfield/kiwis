@@ -7,7 +7,6 @@ tags: [New Zealand, Tongariro, Day Trip, Tama Lakes, Hike, National Park, Whakap
 image: 6
 map_zoom: 10
 map_coordinates: -39.1929362,175.6104886
-hide_gallery: true
 ---
 A long weekend offered an opportunity to get out of Wellington and spend some time in the nature. After a few last minute changes we swapped the originally planned three-days trip with sleeping over in huts for several one-day trips with a stay in a backpacker in Tongariro National Park. The temperatures during nights are already below zero in mountains and our sleeping bags are not really comfortable for these conditions as we discovered during our trip to Mt. Taranaki where we were freezing during night.
 

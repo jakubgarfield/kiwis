@@ -7,7 +7,6 @@ tags: [Australia, Sydney, Taronga Zoo, Koala, Glenmore Rooftop Bar]
 image: 3
 map_zoom: 14
 map_coordinates: -33.843022, 151.241913
-hide_gallery: true
 ---
 
 When we opened the curtain in our little room the sky was blue. Finally, that was what we were waiting for. An ideal day for visiting Taronga Zoo --- a recommended place where you can see all kind of Australian native animals and as it is located on hillside it has a wonderful view of Sydney harbour too.

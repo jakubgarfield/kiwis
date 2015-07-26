@@ -1,15 +1,10 @@
-var container = document.getElementById("gallery-container");
-if (container) {
-  imagesLoaded(container, function() {
-    msnry = new Masonry(container);
-  });
-
-  container.onclick = function (event) {
+var galleryLinks = document.getElementsByClassName("gallery-link");
+for (var i = 0; i < galleryLinks.length; i++) {
+  galleryLinks[i].onclick = function (event) {
     event = event || window.event;
-    var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode : target,
-        options = {index: link, event: event},
-        links = this.getElementsByTagName('a');
-    blueimp.Gallery(links, options);
+    var target = event.target || event.srcElement;
+    var link = target.src ? target.parentNode : target;
+    var options = {index: link, event: event};
+    blueimp.Gallery(galleryLinks, options);
   };
 }

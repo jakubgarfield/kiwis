@@ -16,17 +16,6 @@
 preprocess do
 end
 
-[{ width: 640, quality: 75 }, { width: 240, quality: 60 }].each do |params|
-  rep = "t#{params[:width]}".to_sym
-  compile "/trips/*", rep: rep do
-    filter :resize_image, params if item[:extension] == "jpg"
-  end
-
-  route "/trips/*", rep: rep do
-    item.identifier.chop + "_t#{params[:width]}.jpg" if item[:extension] == "jpg"
-  end
-end
-
 compile 'sitemap' do
   filter :erb
 end
@@ -83,6 +72,10 @@ route '/favicon/*' do
 end
 
 route %r{/resources/(css|js)/*} do
+end
+
+route "/resources/*" do
+  item.identifier.slice(10, item.identifier.length - 11) + "." + item[:extension]
 end
 
 route "*" do

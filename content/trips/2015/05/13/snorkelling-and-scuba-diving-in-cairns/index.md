@@ -7,7 +7,6 @@ tags: [Australia, Cairns, Great Barrier Reef, Scuba Diving, Snorkelling, Green I
 image: 6
 map_zoom: 10
 map_coordinates: -16.7563086, 145.9915605
-hide_gallery: true
 ---
 
 When we were looking for places worth visiting in Australia, Cairns was one of the most recommended ones. It is the place where you can stride through a rainforest one day and cruise to the Great Barrie Reef the other. As it is located in the tropical zone the local climate was really warm but humid as well. When we got off the plane we felt like we stepped into a laundry room. However, thanks to its coastal location, a pleasing breeze was blowing almost all the time which made our staying much more comfortable.
