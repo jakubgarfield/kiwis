@@ -13,7 +13,7 @@ Initially, we planned to make a bigger trip to Castle Point but after a hard Fri
 
 Because of my guilty feeling, that I missed such beautiful Saturday weather, we set off on our trip quite early.
 
-!![](49)
+!![](15)
 
 Firstly, we wanted to walk to Lake Kohangatera but then we realised we had a lack of time and so we decided to explore a loop in East Harbour Regional Park.
 
