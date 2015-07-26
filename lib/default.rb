@@ -41,7 +41,7 @@ end
 
 def page_image_url(item)
   if item[:image]
-    image_path(item, item[:image], rep: 940)
+    image_path(item, item[:image], rep: 960)
   else
     @site.config[:base_url] + "/img/about.jpg"
   end
