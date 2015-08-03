@@ -29,6 +29,6 @@ Farther on the way we passed a few lookouts and made a stop at the lighthouse wh
 
 After a while, we made a diversion to the summit of the island, where WWII gun emplacements were built. From up there, we had a great view of Wellington Harbour which we were enjoying during our lunch break. Just the weather was a bit windy again causing that leaves in our salad had been few times blown away before we could manage to eat them.
 
-![An old lighthouse is guarding the island](8)
+!![An old lighthouse is guarding the island](8)
 
 For the way back to Wellington, we chose a ferry which went through Eastbourne and Seatoun to enjoy a longer cruise for the same price instead of going straight to Wellington. The cruise to the first stop was nice and smooth but on the way to Seatoun the waves started to be bigger and the little ferry jumped over them and swung from side to side. We got a few water splashes as well. Eventually, we were really happy to get off the ferry and have our feet back on the dry land.
