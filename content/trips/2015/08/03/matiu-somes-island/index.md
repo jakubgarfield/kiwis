@@ -6,7 +6,7 @@ kind: article
 tags: [Matiu, Somes Island, New Zealand, Wellington, Day Trip, Ferry]
 image: 11
 map_zoom: 13
-map_coordinates:-41.2571298,174.8653507
+map_coordinates: -41.2571298,174.8653507
 ---
 
 When you are looking at Wellington Harbour there is a small island rising from the water. I was wondering for long time what’s on the island and how we could get there. Than we found out that it’s actually a reserve and we can get there easily by a ferry from city centre.
