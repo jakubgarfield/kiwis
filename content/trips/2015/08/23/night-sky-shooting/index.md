@@ -27,7 +27,7 @@ The situation wasn’t much better during our third night shooting hunt at Makar
 
 !![Two ghosts at the Makara beach](4)
 
-For our best pictures we didn’t have to go far away. We took them just behind the corner of our place, close to the Red Rocks. It was amazing how beautiful the sky was even so close to the city. After a while when we had been pointing the camera to the Red Rocks  we moved next to Houghton Bay and took some pictures with the Pencarrow lighthouse in the background. The millions and millions of tiny dots.
+For our best pictures we didn’t have to go far away. We took them just behind the corner of our place, close to the Red Rocks. It was amazing how beautiful the sky was even so close to the city. After a while when we were pointing the camera to the Red Rocks we moved next to Houghton Bay and took some pictures with the Pencarrow lighthouse in the background. The millions and millions of tiny dots.
 
 !![The shot towards Pencarrow Head](3)
 
