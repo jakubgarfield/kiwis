@@ -56,7 +56,7 @@ def item_name(item)
 end
 
 def image_path(item, image, rep: 640)
-  "//jakubgarfield.blob.core.windows.net/barakuba/#{rep}x/#{item_name(item)}/#{image}.jpg"
+  "https://jakubgarfield.blob.core.windows.net/barakuba/#{rep}x/#{item_name(item)}/#{image}.jpg"
 end
 
 class ConvertImageMarkup < Nanoc::Filter

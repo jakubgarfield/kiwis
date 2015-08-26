@@ -11,10 +11,10 @@
     <meta property="og:title" content="<%= title_for(@item) %>">
     <meta property="og:description" content="<%= @item[:description] %>">
     <meta property="og:url" content="<%= page_url(@item) %>">
-    <meta property="og:image" content="http:<%= page_image_url(@item) %>">
-    <meta property="og:image:secure_url" content="https:<%= page_image_url(@item) %>">
+    <meta property="og:image" content="<%= page_image_url(@item) %>">
+    <meta property="og:image:secure_url" content="<%= page_image_url(@item) %>">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:image:src" content="https:<%= page_image_url(@item) %>">
+    <meta property="twitter:image:src" content="<%= page_image_url(@item) %>">
     <meta property="twitter:site" content="@jakubgarfield">
     <meta property="twitter:creator" content="@jakubgarfield" />
     <meta property="twitter:url" content="<%= page_url(@item) %>">

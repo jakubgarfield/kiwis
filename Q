@@ -1,0 +1,67 @@
+[33mee5cac8[m tes
+[33m2c68cc5[m test
+[33m20ce207[m test
+[33m0613e8e[m test
+[33m63a9c1a[m test
+[33mf713db0[m fix
+[33m81ca75c[m fixfb
+[33m850c68c[m typo
+[33mf76c7a8[m nightsky
+[33mae4feca[m pinnacles
+[33mbd9c1fd[m makara-walkway
+[33m20a4fbb[m fix-url
+[33m9e1dc80[m fix-url
+[33md5da07d[m matiu-somes-island
+[33mb0f32be[m matiu-somes-island
+[33mca891d0[m Fix image reference
+[33m4ffd601[m Change OG image to 960 instead of 940
+[33md0af59c[m Move images to Azure
+[33m65a22be[m pouakai
+[33m69f761c[m pouakai
+[33m0cd151d[m tupapakurua
+[33m2793fe4[m tama
+[33mcf05f4c[m koala
+[33m0bed52a[m custom be guard image tag
+[33m46e6a8a[m waterfall
+[33mdab0b45[m bondi
+[33m4635f1a[m prune
+[33m3f611fe[m responsive youtube
+[33ma78a16e[m grammar
+[33m48473bb[m singin
+[33m1f1f2f6[m facebook
+[33m5c90154[m typo
+[33mde23dda[m scuba
+[33md48e4de[m https migration
+[33m676f3c0[m Added OG prefix
+[33mf742dd8[m Add sharing buttons
+[33mf4f5167[m Modify new-trip command
+[33m1bebf12[m Taronga zoo
+[33m07e1e58[m Add map
+[33mfa67900[m Blue mountains
+[33md4f51e2[m Gems updated and title moved to config
+[33ma353caf[m Center kapakapanui map
+[33md8b14e7[m Privacy policy and title changes
+[33m8553e45[m Optimize for mobile
+[33mb8d323f[m Default cards for index
+[33m70c6780[m Fix meta and link
+[33meab7836[m Add favicon
+[33mde4cdeb[m Exclude binary files from sitemap
+[33m4bd0f62[m Add sitemap.xml and robots.txt
+[33m4637ece[m Changed title
+[33m30bc815[m Change title
+[33me61c09c[m Fix og problem
+[33mba1887c[m Fix og and twitter card
+[33mebd42c6[m Move domain
+[33mb384aac[m First days in Sydney
+[33m0050ef1[m Change map size to 240px
+[33mf966ae7[m Add CNAME and change map images to 640px
+[33mda87934[m Fix map
+[33md690088[m Moar images and ability to add them in the middle of text
+[33mc2adc72[m Generate preview files automatically
+[33m2a4c664[m New trip added
+[33m275c37a[m Gym
+[33md028dcb[m Castlepoint surf trip
+[33m0b26cc8[m Kapakapanui track
+[33m67d4dff[m Tora beach
+[33m096355f[m Kiwis initial commit and first article
+[33mdcd2889[m Gitignore added
