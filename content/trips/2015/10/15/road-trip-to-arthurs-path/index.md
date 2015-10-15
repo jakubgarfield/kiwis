@@ -1,5 +1,5 @@
 ---
-title: Road trip to Arthur's Path
+title: Road trip to Arthur's Pass
 created_at: 2015-10-15 21:31:25 +1300
 description: A half-day road trip to Arhur’s Pass with a few stops along the road and two short walks which all gave beautiful views of wild South Island nature.
 kind: article
