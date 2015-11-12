@@ -56,7 +56,7 @@ def item_name(item)
 end
 
 def image_path(item, image, rep: 640)
-  "/resources/photos/#{rep}x/#{item_name(item)}/#{image}.jpg"
+  "/photos/#{rep}x/#{item_name(item)}/#{image}.jpg"
 end
 
 class ConvertImageMarkup < Nanoc::Filter
