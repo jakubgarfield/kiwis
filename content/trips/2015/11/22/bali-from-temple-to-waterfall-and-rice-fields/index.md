@@ -1,7 +1,7 @@
 ---
-title: Bali: from temple to waterfall and rice fields
+title: Bali&#58; from temple to waterfall and rice fields
 created_at: 2015-11-22 20:34:17 +1300
-description: During the second day of exploring the beauty of Bali we were surrounded again by greenness of rice terraces, absorbed by atmosphere during our walk at Hindu Temple and enjoyed a rest in Botanic Garden. This is the description
+description: During the second day of exploring the beauty of Bali we were surrounded again by greenness of rice terraces, absorbed by atmosphere during our walk at Hindu Temple and enjoyed a rest in Botanic Garden.
 kind: article
 tags: [Indonesia, Bali, Day Trip, Jatiluwih, Rice Terrace, Luhur Batukaru Temple, Botanic Garden, Munduk, Waterfall]
 image: 6
