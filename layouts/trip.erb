@@ -5,32 +5,32 @@
       <aside><%= attribute_to_time(@item[:created_at]).strftime("%B %e, %G") %></aside>
     </header>
 
-    <section class="image">
+    <div class="image">
       <img src="<%= image_path(@item, @item[:image], rep: 960) %>" alt="Title image" />
-    </section>
+    </div>
 
-    <section class="content" id="gallery-container">
+    <div class="content" id="gallery-container">
       <%= yield %>
-    </section>
+    </div>
 
-    <section class="social">
+    <div class="social">
       <ul>
         <li class="facebook"><div class="fb-share-button" data-href="<%= page_url(@item)  %>" data-layout="button_count"></div></li>
         <li class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-via="jakubgarfield" data-hashtags="travel">Tweet</a></li>
       </ul>
-    </section>
+    </div>
 
     <% if show_map?(@item) %>
-      <section class="map">
+      <div class="map">
         <div id="map-canvas"></div>
-      </section>
+      </div>
     <% end %>
 
     <footer>
       <aside><%=  @item[:tags].join(", ") %></aside>
-      <section class="comments">
-         <div id="disqus_thread"></div>
-      </section>
+      <div class="comments">
+        <div id="disqus_thread"></div>
+      </div>
     </footer>
   </article>
 
