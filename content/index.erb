@@ -2,20 +2,18 @@
 description: "A site about travelling and living in foreign countries. Full of photos, travel itineraries and journals."
 ---
 
-<section class="listing">
+<div class="listing">
   <% sorted_articles.take(5).each do |post| %>
     <article>
       <header>
-        <h1><%= link_to post[:title], post.path %></h1>
+        <h2><%= link_to post[:title], post.path %></h2>
         <%= post_metadata(post) %>
+        <a href="<%= post.path %>" class="image"><img src="<%= image_path(post, post[:image]) %>" /></a>
       </header>
-      <section class="image">
-        <a href="<%= post.path %>"><img src="<%= image_path(post, post[:image]) %>" /></a>
-      </section>
       <p><%= post[:description] %></p>
       <p><a href="<%= post.path %>">read more &#8594;</a></p>
     </article>
   <% end %>
-</section>
+</div>
 
 <p class="pull-left"><a href="/archive/">&larr;&nbsp;Older</a></p>

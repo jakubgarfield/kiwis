@@ -22,20 +22,19 @@ dd { margin: 1em 1.5em;}
 
 body { width: 960px; margin: auto;}
 article header { text-align: center;}
-article header h1 { margin-top: 0.75em;}
+article header h2 { font-size: 2.5em; margin-top: 0.75em;}
 footer { text-align: center; margin-top: 3em; font-size: 0.85em;}
 nav ul { margin: 0;}
 nav li { display: inline-block; list-style-type: none;}
 
-.post h1 { margin-bottom: 0.5em; }
+.post h2 { margin-bottom: 0.5em; }
 .post aside { color: #8f8f8f; margin-bottom: 2.5em; font-size: 0.85em; }
 
 .archive aside { color: #8f8f8f; font-size: 0.85em; margin-bottom: 0.5em;}
 
-.listing h1 { font-size: 2em; margin-bottom: 0.5em;}
-.listing aside { color: #8f8f8f; font-size: 0.85em; }
-.listing .image { margin-top: 1em; }
-.listing .image a { border: none; }
+.listing h2 { font-size: 2em; margin-bottom: 0.5em;}
+.listing aside { color: #8f8f8f; font-size: 0.85em; margin-bottom: 1.5em; }
+.listing a.image { border: none; }
 
 .map #map-canvas { width: 960px; height: 540px; margin: auto;}
 .content { width: 640px; margin: auto; }

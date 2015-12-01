@@ -56,7 +56,11 @@ def item_name(item)
 end
 
 def image_path(item, image, rep: 640)
-  "/photos/#{rep}x/#{item_name(item)}/#{image}.jpg"
+  "https://barakuba.com/photos/#{rep}x/#{item_name(item)}/#{image}.jpg"
+end
+
+def article_image(item)
+  "<a href=\"#{image_path(item, item[:image], rep: 960)}\" class=\"gallery-link\"><img src=\"#{image_path(item, item[:image], rep: 960)}\" alt=\"#{item[:title]}\" /></a>"
 end
 
 class ConvertImageMarkup < Nanoc::Filter
