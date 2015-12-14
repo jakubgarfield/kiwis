@@ -6,7 +6,7 @@ kind: article
 tags: [New Zealand, Aorangi Range, Old Mill Track, Sutherlands Hut, Hunting, Turanganui River, Two-days Track]
 image: 1
 map_zoom: 13
-map_coordinates: -41.4186439,174.8320678
+map_coordinates: -41.4667444,175.340959
 ---
 
 The Old Mill Track was kind of an emergency decision. Traditionally, after checking the weather forecast, we had to abandon our initial plan in the Tararua Range. Neither an alternate plan in the Orongorongo Valley worked as all possible huts were fully booked. Tired of endless searching, we finally decided for a track in the Aorangi Range.
