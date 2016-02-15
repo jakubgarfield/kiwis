@@ -17,7 +17,7 @@ We planned to stay over the night at our favorite spot at Castlepoint and on the
 
 To reach the beginning of the walk we had to drive a decent distance along a gravel road which is always a bit painful for our old car. Basically, the whole track goes through a privately-owned land, so we were constantly surrounded by sheep or cows. Most of the time, there was no clear path and we just followed wooden poles stuck among cattle.
 
-!![Lazy seals relaxing on the beach ](3)
+!![Lazy seals relaxing on the beach](3)
 
 In about two hours, we reached an outcrop risen above rocky coast. The walls really resembled cells which gave the rock it’s name. On adjacent rocks, there was a small number of relaxing fur seals. They didn’t care about anything and just sniffled bit louder when Jakub got too close.
 
@@ -44,12 +44,12 @@ The first half of the walk ran across farmland and through bush. We crossed the 
 
 A few meters upstream was a nice waterfall, but then we followed the way of flow and walked downstream through the narrow limestone gorge. Most of the time, the water level reached only up to our knees. But, there were some parts which got a bit deeper and we ended with a backpack above our heads.
 
-!![The rock tunnels](8)
+!![The rock tunnels](9)
 
 While looking for the best way to get over one deeper spot, we ran across a number of fossils as we climbed over a big rock.
 
 As we proceeded to the end of the chasm, we walked through a few massive tunnels where stalactites hung from the ceiling and along the walls.
 
-!![At some parts it got quite dark and cold as well](9)
+!![At some parts it got quite dark and cold as well](10)
 
 Once we went through the end of the chasm, the sun and warm air were really nice as, despite the middle of summer, the water was quite cold. However, all that fun was definitely worth our frozen toes and we got warm on the way up back to our car anyway.
