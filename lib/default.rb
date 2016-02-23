@@ -41,7 +41,7 @@ end
 
 def page_image_url(item)
   if item[:image]
-    image_path(item, item[:image], rep: 960)
+    image_url(item, item[:image], rep: 960)
   else
     @site.config[:base_url] + "/img/about.jpg"
   end
@@ -55,8 +55,12 @@ def item_name(item)
   item.identifier.split("/").last
 end
 
+def image_url(item, image, rep: 640)
+  @site.config[:base_url] + image_path(item, image, rep)
+end
+
 def image_path(item, image, rep: 640)
-  "https://barakuba.com/photos/#{rep}x/#{item_name(item)}/#{image}.jpg"
+  "/photos/#{rep}x/#{item_name(item)}/#{image}.jpg"
 end
 
 def article_image(item)
