@@ -56,7 +56,7 @@ def item_name(item)
 end
 
 def image_url(item, image, rep: 640)
-  @site.config[:base_url] + image_path(item, image, rep)
+  @site.config[:base_url] + image_path(item, image, rep: rep)
 end
 
 def image_path(item, image, rep: 640)
@@ -81,6 +81,19 @@ class ConvertImageMarkup < Nanoc::Filter
 </figure>
 EOF
     end
+  end
+end
+
+class ResizeImage < Nanoc::Filter
+  identifier :resize_image
+  type :binary
+
+  def run(filename, params = {})
+    # requires imagemagick and mozjpeg installed
+    quality = params[:quality]
+    width = params[:width]
+    `convert #{filename} -resize #{width}x\> -strip -quality #{quality} #{output_filename}`
+    `/opt/mozjpeg/bin/jpegtran -outfile #{output_filename} -optimize #{output_filename}`
   end
 end
 
