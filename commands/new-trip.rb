@@ -23,8 +23,8 @@ run do |opts, args, cmd|
   line = HighLine.new
 
   # get the name and description parameter or the default
-  name = args[0] || "New blog post"
-  description = opts[:description] || "This is the description"
+  name = args[0]
+  description = opts[:description] || ""
 
   # convert the tags string to and array of trimmed strings
   tags = opts[:tags].split(",").map(&:strip) rescue []
