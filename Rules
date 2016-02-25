@@ -53,6 +53,7 @@ end
 
 compile "/feed" do
   filter :erb
+  filter :absolute_urls
 end
 
 compile %r{/resources/(css|js)/*} do
