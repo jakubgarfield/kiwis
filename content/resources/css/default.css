@@ -37,7 +37,7 @@ nav li { display: inline-block; list-style-type: none;}
 .listing aside { color: #8f8f8f; font-size: 0.85em; margin-bottom: 1.5em; }
 .listing a.image { border: none; }
 
-.map #map-canvas { width: 960px; height: 540px; margin: auto;}
+.map #map-canvas, .map #leaflet-map { width: 960px; height: 540px; margin: auto;}
 .content { width: 640px; margin: auto; }
 article footer { width: 800px; margin: 2em auto 2em; }
 

@@ -46,8 +46,6 @@ compile "/trips/*" do
     filter :kramdown
     filter :typogruby
     layout "trip"
-  elsif item[:extension] == "kml"
-    filter :geolocate
   end
 end
 
@@ -99,8 +97,6 @@ end
 route "*" do
   if item.binary? || ["css", "js"].include?(item[:extension])
     item.identifier.chop + (item[:extension].nil? ? "" : ("." + item[:extension]))
-  elsif item[:extension] == "kml"
-    item.identifier.chop + ".kmz"
   else
     item.identifier + "index.html"
   end

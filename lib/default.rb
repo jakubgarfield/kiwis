@@ -31,8 +31,8 @@ def tags
   tags.to_a
 end
 
-def show_map?(item)
-  item[:map_coordinates] || has_kml?(item)
+def generate_geojson(item)
+  "{}"
 end
 
 def page_url(item)
@@ -45,10 +45,6 @@ def page_image_url(item)
   else
     @site.config[:base_url] + "/img/about.jpg"
   end
-end
-
-def has_kml?(item)
-  File.exists?("content" + item.path + "doc.kml")
 end
 
 def item_name(item)
@@ -65,92 +61,4 @@ end
 
 def article_image(item)
   "<a href=\"#{image_path(item, item[:image], rep: 960)}\" class=\"gallery-link\"><img src=\"#{image_path(item, item[:image], rep: 960)}\" alt=\"#{item[:title]}\" /></a>"
-end
-
-class ConvertImageMarkup < Nanoc::Filter
-  identifier :convert_image_markup
-  type :text
-
-  def run(content, params = {})
-    regex = /(!!\[(.*?)\]\()(.*?)(\))/
-    content.gsub(regex) do
-<<EOF
-<figure>
-  <a href="#{image_path(@item, $3, rep: 960)}" class="gallery-link"><img alt="#{$2}" src="#{image_path(@item, $3)}" /></a>
-  <figcaption>#{$2}</figcaption>
-</figure>
-EOF
-    end
-  end
-end
-
-class ResizeImage < Nanoc::Filter
-  identifier :resize_image
-  type :binary
-
-  def run(filename, params = {})
-    # requires imagemagick and mozjpeg installed
-    quality = params[:quality]
-    width = params[:width]
-    `convert #{filename} -resize #{width}x\> -strip -quality #{quality} #{output_filename}`
-    `/opt/mozjpeg/bin/jpegtran -outfile #{output_filename} -optimize #{output_filename}`
-  end
-end
-
-require 'nokogiri'
-require 'exifr'
-require 'zip'
-class GeolocationFilter < Nanoc::Filter
-  identifier :geolocate
-  type :text
-
-  def run(content, params = {})
-    document = Nokogiri::XML(content)
-    # node = document.at_css("Document")
-    # node.add_child(marker_style_node)
-    # geolocated_photos_metadata.each { |data| node.add_child(placemark_node(data)) }
-
-    stringio = Zip::OutputStream::write_buffer do |zio|
-      zio.put_next_entry("doc.kml")
-      zio.write document.to_xml
-    end
-    stringio.rewind
-    stringio.sysread
-  end
-
-  private
-  def photos
-    @item.parent.children.select { |i| i[:extension] == "jpg" }
-  end
-
-  def geolocated_photos_metadata
-    photos.map do |photo|
-      exif = EXIFR::JPEG.new(photo.raw_filename)
-      exif.gps ? { gps: exif.gps, name: photo.identifier.split("/").last } : nil
-    end.compact
-  end
-
-  def marker_style_node
-    "<Style id='photo'><IconStyle>
-      <scale>1</scale>
-      <Icon><href>#{@site.config[:base_url]}/img/photo.png</href></Icon>
-      <hotSpot x='20' y='2' xunits='pixels' yunits='pixels'/>
-    </IconStyle></Style>"
-  end
-
-  def placemark_node(data)
-    "<Placemark><Point><coordinates>#{data[:gps].longitude},#{data[:gps].latitude}</coordinates></Point>
-      <styleUrl>#photo</styleUrl>
-      <name>#{data[:name]}</name>
-      <description><![CDATA[<img src='#{@site.config[:base_url]}#{@item.parent.identifier}#{data[:name]}_t240.jpg'/> ]]></description>
-    </Placemark>"
-  end
-end
-
-class AbsoluteAtom < Nanoc::Filter
-  identifier :absolute_urls
-  type :text
-  def run(content, params={})
-    content.gsub(/((href|src)=")\//, '\1' + @site.config[:base_url] + '/')
-  end
 end
