@@ -1,6 +1,8 @@
 # All files in the 'lib' directory will be loaded
 # before nanoc starts compiling.
 require 'date'
+require 'gpxvis'
+require 'nokogiri'
 
 include Nanoc3::Helpers::Blogging
 include Nanoc3::Helpers::Tagging
@@ -31,10 +33,6 @@ def tags
   tags.to_a
 end
 
-def generate_geojson(item)
-  "{}"
-end
-
 def page_url(item)
   @site.config[:base_url] + item.path
 end
@@ -62,3 +60,18 @@ end
 def article_image(item)
   "<a href=\"#{image_path(item, item[:image], rep: 960)}\" class=\"gallery-link\"><img src=\"#{image_path(item, item[:image], rep: 960)}\" alt=\"#{item[:title]}\" /></a>"
 end
+
+def generate_geojson(item)
+  file_names = item.children.select { |i| i[:extension] == "gpx" }.map(&:raw_filename).sort
+  tracks = file_names.map { |file_name| track_from_file(file_name) }
+  Gpxvis::GeoJsonFormatter.new(tracks).format
+end
+
+def track_from_file(file_name)
+  gpx_document = File.open(file_name) { |f| Nokogiri::XML(f) }
+
+  track_element = gpx_document.xpath("//xmlns:trk").first
+  raise "No 'trk' element found in #{file_name}" unless track_element
+  Gpxvis::Track.from_gpx_element(track_element)
+end
+

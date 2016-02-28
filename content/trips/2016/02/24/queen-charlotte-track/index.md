@@ -5,6 +5,7 @@ description: A three days track from Ship Cove to Anakiwa which passes through c
 kind: article
 tags: [New Zealand, South Island, Queen Charlotte Track, Marlborough Sounds, Ship Cove, Anakiwa, Multi-day Track, Tramping, Backpacking, Bush, Coast]
 image: 9
+gpx: true
 ---
 
 The first time I’d heard about [this track](http://www.qctrack.co.nz/on-the-track-/walk-the-track/) was when a friend of mine sent me an article from National Geographic about a selection of world's best hikes. After a short discussion, we booked a ferry, bought [passes for access](http://www.qctrack.co.nz/track-info/qctlc-pass/) to private land and then just hoped for a good weather.
