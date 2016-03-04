@@ -25,31 +25,22 @@ class ImageSizeFilter < Nanoc::Filter
   @@SELECTORS = [ 'img' ]
 
   def run(content, params={})
-    # Set assigns so helper function can be used
     @item_rep = assigns[:item_rep] if @item_rep.nil?
-
-    selectors  = params.fetch(:select) { @@SELECTORS }
-
-    klass = ::Nokogiri::HTML
-
-    add_image_size(content, selectors, klass)
+    add_image_size(content)
   end
 
   protected
-  def add_image_size(content, selectors, klass)
-    doc = content =~ /<html[\s>]/ ? klass.parse(content) : klass.fragment(content)
+  def add_image_size(content)
+    doc = content =~ /<html[\s>]/ ? ::Nokogiri::HTML.parse(content) : ::Nokogiri::HTML.fragment(content)
 
-    selectors.map { |sel| "#{sel}" }.each do |selector|
-      doc.css(selector)
-      .select { |node| node.is_a? Nokogiri::XML::Element }
-      .select { |img| img.has_attribute?('src') }
-      .each do |img|
-        dimensions = image_size(img['src'])
-        dimensions.each{|k,v| img[k.to_s] = v.to_s}
-      end
+    doc.css("img")
+    .select { |node| node.is_a? Nokogiri::XML::Element }
+    .select { |img| img.has_attribute?('src') }
+    .each do |img|
+      dimensions = image_size(img['src'])
+      dimensions.each{|k,v| img[k.to_s] = v.to_s}
     end
-
-    doc.to_xhtml
+    doc.to_html
   end
 
   def image_size(path)
