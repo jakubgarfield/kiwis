@@ -43,6 +43,7 @@ GEM
     haversine (0.3.0)
     highline (1.7.2)
     hitimes (1.2.2)
+    image_size (1.4.2)
     json (1.8.2)
     kramdown (1.6.0)
     listen (2.10.0)
@@ -96,6 +97,7 @@ DEPENDENCIES
   gpxvis!
   guard-nanoc
   highline
+  image_size
   kramdown
   mini_magick
   nanoc

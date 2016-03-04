@@ -46,6 +46,7 @@ compile "/trips/*" do
     filter :kramdown
     filter :typogruby
     layout "trip"
+    filter :imagesize
   end
 end
 
@@ -71,6 +72,7 @@ compile "*" do
     filter :kramdown if item[:extension] == "md"
     filter :typogruby
     layout "page"
+    filter :imagesize
   end
 end
 
