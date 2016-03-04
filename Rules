@@ -16,16 +16,16 @@
 preprocess do
 end
 
-# [{ width: 960, quality: 85 }, { width: 640, quality: 85 }].each do |params|
-#   rep = "#{params[:width]}".to_sym
-#   compile "/photos/*", rep: rep do
-#     filter :resize_image, params if item[:extension] == "jpg"
-#   end
-#
-#   route "/photos/*", rep: rep do
-#     "/photos/#{rep}x" + item.identifier[7..-2] + ".jpg" if item[:extension] == "jpg"
-#   end
-# end
+[{ width: 960, quality: 85 }, { width: 640, quality: 85 }].each do |params|
+  rep = "#{params[:width]}".to_sym
+  compile "/photos/*", rep: rep do
+    filter :resize_image, params if item[:extension] == "jpg"
+  end
+
+  route "/photos/*", rep: rep do
+    "/photos/#{rep}x" + item.identifier[7..-2] + ".jpg" if item[:extension] == "jpg"
+  end
+end
 
 compile "/photos/*" do
 end
