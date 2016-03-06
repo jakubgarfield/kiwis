@@ -107,5 +107,11 @@ end
 layout "*", :erb
 
 postprocess do
-  require "byebug"; byebug
+  html_files = Dir["output/**/*.html"]
+  html_files.each do |file|
+    content = IO.read(file)
+    content_with_image_size = AddImageSize.new.call(content)
+    IO.write(file, content_with_image_size)
+  end
+  # require "byebug"; byebug
 end
