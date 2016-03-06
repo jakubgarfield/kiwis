@@ -75,7 +75,7 @@ a:hover, body > header a:hover { border-color: #8f8f8f;}
   .map #map-canvas, .map #leaflet-map { height: 270px; }
   .leaflet-top.leaflet-right {display: none; }
   main { font-size: 0.85em; }
-  article img { width: 100%;}
+  article img { width: 100%; height: auto; }
 }
 
 @media screen and (min-width: 641px) and (max-width: 960px) {
