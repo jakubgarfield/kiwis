@@ -2,6 +2,6 @@
   :articles => sorted_articles,
   :title => 'Bára & Kuba on the road :: The travel diary of two',
   :author_name => 'Barbora Hájková & Jakub Chodounský',
-  :author_uri => @site.config[:base_url],
+  :author_uri => @config[:base_url],
   :content_proc => lambda { |article| "<div>#{article_image(article)}</div><div>#{article.compiled_content}</div>" }
 %>

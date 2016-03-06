@@ -23,7 +23,7 @@ end
   end
 
   route "/photos/*", rep: rep do
-    "/photos/#{rep}x" + item.identifier[7..-2] + ".jpg" if item[:extension] == "jpg"
+    "/photos/#{rep}x" + item.identifier.to_s[7..-2] + ".jpg" if item[:extension] == "jpg"
   end
 end
 
@@ -91,7 +91,7 @@ route %r{/resources/(css|js)/*} do
 end
 
 route "/resources/*" do
-  item.identifier.slice(10, item.identifier.length - 11) + "." + item[:extension]
+  item.identifier.to_s.slice(10, item.identifier.to_s.length - 11) + "." + item[:extension]
 end
 
 route "*" do
@@ -105,3 +105,7 @@ route "*" do
 end
 
 layout "*", :erb
+
+postprocess do
+  require "byebug"; byebug
+end

@@ -4,14 +4,14 @@ require 'date'
 require 'gpxvis'
 require 'nokogiri'
 
-include Nanoc3::Helpers::Blogging
-include Nanoc3::Helpers::Tagging
-include Nanoc3::Helpers::Rendering
-include Nanoc3::Helpers::LinkTo
-include Nanoc3::Helpers::XMLSitemap
+include Nanoc::Helpers::Blogging
+include Nanoc::Helpers::Tagging
+include Nanoc::Helpers::Rendering
+include Nanoc::Helpers::LinkTo
+include Nanoc::Helpers::XMLSitemap
 
 def title_for(item)
-  (@item[:title] ? @item[:title] + " | " : "")  + @site.config[:title]
+  (@item[:title] ? @item[:title] + " | " : "")  + @config[:title]
 end
 
 def post_metadata(post)
@@ -34,23 +34,23 @@ def tags
 end
 
 def page_url(item)
-  @site.config[:base_url] + item.path
+  @config[:base_url] + item.path
 end
 
 def page_image_url(item)
   if item[:image]
     image_url(item, item[:image], rep: 960)
   else
-    @site.config[:base_url] + "/img/about.jpg"
+    @config[:base_url] + "/img/about.jpg"
   end
 end
 
 def item_name(item)
-  item.identifier.split("/").last
+  item.identifier.to_s.split("/").last
 end
 
 def image_url(item, image, rep: 640)
-  @site.config[:base_url] + image_path(item, image, rep: rep)
+  @config[:base_url] + image_path(item, image, rep: rep)
 end
 
 def image_path(item, image, rep: 640)
