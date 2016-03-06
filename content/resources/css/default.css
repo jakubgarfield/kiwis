@@ -81,5 +81,5 @@ a:hover, body > header a:hover { border-color: #8f8f8f;}
 @media screen and (min-width: 641px) and (max-width: 960px) {
   html { margin: 0.5em; }
   body, article footer, .map #map-canvas, .map #leaflet-map, .gpx footer { width: 100%; }
-  article img { width: 100%; }
+  article img { width: 100%; height: auto; }
 }
