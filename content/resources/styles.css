@@ -1,1 +1,1 @@
-<%= combine_files_content ["blueimp-gallery.min.css", "default.css"] %>
+<%= combine_files_content ["blueimp-gallery.min.css", "leaflet.css", "leaflet_elevation-0.0.4.css", "default.css"] %>

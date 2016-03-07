@@ -27,8 +27,6 @@
     <% end %>
 
     <% if @item[:gpx]  %>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
-      <link rel="stylesheet" href="https://rawgit.com/MrMufflon/Leaflet.Elevation/master/dist/leaflet.elevation-0.0.4.css" />
       <section class="map gpx">
         <article>
           <div id="leaflet-map"></div>
@@ -63,83 +61,6 @@
   </div>
 
   <div id="fb-root"></div>
-  <% if @item[:map_coordinates] %>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-    function initialize() {
-      var map_canvas = document.getElementById("map-canvas");
-      if (map_canvas) {
-        var map_options = {
-          zoom: <%= @item[:map_zoom] ? @item[:map_zoom] : 16 %>,
-                <%= @item[:map_coordinates] ? "center: new google.maps.LatLng(#{@item[:map_coordinates]})," : "" %>
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(map_canvas, map_options);
-      }
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-  <% end %>
-
-  <% if @item[:gpx] %>
-    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
-    <script type="text/javascript" src="https://rawgit.com/MrMufflon/Leaflet.Elevation/master/dist/leaflet.elevation-0.0.4.min.js"></script>
-    <script type="application/javascript">
-      function _t(t) { return document.getElementsByTagName(t)[0]; }
-      function _c(c) { return document.getElementsByClassName(c)[0]; }
-      function round(number) { return Math.round(number * 100) / 100; }
-      function format_duration(seconds) {
-        var result = "";
-        var hours   = Math.floor(seconds / 3600);
-        var minutes = Math.floor((seconds - (hours * 3600)) / 60);
-
-        if (hours == 1) { result += hours + " hour"; }
-        else if (hours > 0) { result += hours + " hours";}
-
-        if (hours > 0 && minutes > 0) { result += " and "; }
-
-        if (minutes == 1) { result += hours + " minute"; }
-        if (minutes > 0) {result += minutes + " minutes"; }
-
-        return result;
-      }
-
-      var map = new L.Map('leaflet-map');
-      var url = 'https://otile{s}-s.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg';
-      var attribution = '<a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors</a>';
-      var tileLayer = new L.TileLayer(url, {subdomains:"1234",attribution: attribution});
-
-      var geojson = <%= generate_geojson(@item) %>;
-      var elevation = L.control.elevation({
-        position: "topright",
-        theme: "steelblue-theme",
-        width: 600,
-        height: 125,
-        margins: { top: 10, right: 20, bottom: 30, left: 50 },
-        useHeightIndicator: true,
-        interpolation: "linear",
-        hoverNumber: {
-            decimalsX: 3,
-            decimalsY: 0,
-            formatter: undefined
-        },
-        xTicks: undefined,
-        yTicks: undefined,
-        collapsed: false
-      });
-      elevation.addTo(map);
-
-      var gjl = L.geoJson(geojson,{ onEachFeature: function(feature, layer) { elevation.addData.bind(elevation)(feature, layer); } }).addTo(map);
-      map.addLayer(tileLayer).fitBounds(gjl.getBounds());
-
-      _c('distance').textContent = round(geojson.properties.distance / 1000);
-      _c('duration').textContent = format_duration(geojson.properties.moving_duration);
-      _c('average-speed').textContent = round(geojson.properties.average_moving_speed);
-      _c('elevation-gain').textContent = round(geojson.properties.uphill_elevation);
-      _c('elevation-loss').textContent = -1 * round(geojson.properties.downhill_elevation);
-    </script>
-  <% end %>
   <script type="text/javascript"> var disqus_shortname = 'kiwischodounskynet'; (function() { var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })(); </script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   <script>
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
