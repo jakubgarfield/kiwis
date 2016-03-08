@@ -39,9 +39,7 @@ nav li { display: inline-block; list-style-type: none;}
 
 .map #map-canvas, .map #leaflet-map { width: 960px; height: 540px; margin: auto;}
 .gpx footer { padding: 0.5em 0; margin: 0 auto; width: 960px; }
-.gpx ul.info { list-style: none; margin: 0; padding: 0; font-size: smaller; }
-.gpx ul.info li { color: #666; padding: 2px; display: inline; }
-.gpx ul.info li span { color: black; }
+.gpx table { margin: 0 auto; }
 
 .content { width: 640px; margin: auto; }
 article footer { width: 800px; margin: 2em auto 2em; }
@@ -76,6 +74,7 @@ a:hover, body > header a:hover { border-color: #8f8f8f;}
   .leaflet-top.leaflet-right {display: none; }
   main { font-size: 0.85em; }
   article img { width: 100%; height: auto; }
+  .gpx table { display: none; }
 }
 
 @media screen and (min-width: 641px) and (max-width: 960px) {

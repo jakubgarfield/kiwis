@@ -33,12 +33,30 @@
         </article>
 
         <footer>
-          <ul class="info">
-            <li>Distance:&nbsp;<span class="distance"></span>&nbsp;km</li>
-            &mdash; <li>Moving duration:&nbsp;<span class="duration"></span></li>
-            &mdash; <li>Average speed:&nbsp;<span class="average-speed"></span>&nbsp;km/h</li>
-            &mdash; <li>Elevation:&nbsp;+<span class="elevation-gain"></span>&nbsp;m, -<span class="elevation-loss"></span>&nbsp;m</li>
-          </ul>
+          <table class="info">
+            <thead>
+              <tr>
+                <th>Description</th>
+                <th>Distance (km)</th>
+                <th>Moving duration</th>
+                <th>Average speed (km/h)</th>
+                <th>Elevation gain (m)</th>
+                <th>Elevation loss (m)</th>
+              </tr>
+            </thead>
+            <tbody class="map-details">
+            </tbody>
+            <tfoot>
+              <tr>
+                <td><strong>Total</strong></td>
+                <td class="total-distance"></td>
+                <td class="total-duration"></td>
+                <td class="total-average-speed"></td>
+                <td class="total-elevation-gain"></td>
+                <td class="total-elevation-loss"></td>
+              </tr>
+            </tfoot>
+          </table>
         </footer>
       </section>
     <% end %>

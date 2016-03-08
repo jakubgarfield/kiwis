@@ -83,7 +83,6 @@
     <% end %>
     <% if @item[:gpx] %>
       <script type="application/javascript">
-        function _t(t) { return document.getElementsByTagName(t)[0]; }
         function _c(c) { return document.getElementsByClassName(c)[0]; }
         function round(number) { return Math.round(number * 100) / 100; }
         function format_duration(seconds) {
@@ -91,15 +90,20 @@
           var hours   = Math.floor(seconds / 3600);
           var minutes = Math.floor((seconds - (hours * 3600)) / 60);
 
-          if (hours == 1) { result += hours + " hour"; }
-          else if (hours > 0) { result += hours + " hours";}
-
-          if (hours > 0 && minutes > 0) { result += " and "; }
-
-          if (minutes == 1) { result += hours + " minute"; }
-          if (minutes > 0) {result += minutes + " minutes"; }
+          if (hours < 10) { result += "0"; }
+          result += hours;
+          result += ":";
+          if (minutes < 10) { result += "0"; }
+          result += minutes
 
           return result;
+        }
+        function fillTrackDetails(distanceContainer, durationContainer, averageSpeedContainer, elevationGainContainer, elevationLossContainer, properties) {
+          distanceContainer.textContent = round(properties.distance / 1000);
+          durationContainer.textContent = format_duration(properties.moving_duration);
+          averageSpeedContainer.textContent = round((properties.distance * 60 * 60) / (properties.moving_duration * 1000));
+          elevationGainContainer.textContent = round(properties.uphill_elevation);
+          elevationLossContainer.textContent = round(properties.downhill_elevation);
         }
 
         var map = new L.Map('leaflet-map');
@@ -130,11 +134,30 @@
         var gjl = L.geoJson(geojson,{ onEachFeature: function(feature, layer) { elevation.addData.bind(elevation)(feature, layer); } }).addTo(map);
         map.addLayer(tileLayer).fitBounds(gjl.getBounds());
 
-        _c('distance').textContent = round(geojson.properties.distance / 1000);
-        _c('duration').textContent = format_duration(geojson.properties.moving_duration);
-        _c('average-speed').textContent = round(geojson.properties.average_moving_speed);
-        _c('elevation-gain').textContent = round(geojson.properties.uphill_elevation);
-        _c('elevation-loss').textContent = -1 * round(geojson.properties.downhill_elevation);
+
+        fillTrackDetails(_c('total-distance'), _c('total-duration'), _c('total-average-speed'), _c('total-elevation-gain'), _c('total-elevation-loss'), geojson.properties);
+
+        if (geojson.features.length > 1) {
+          for (var i = 0; i < geojson.features.length; i++) {
+            var feature = geojson.features[i];
+            var tr = document.createElement("tr");
+            var description = document.createElement("td");
+            var distance = document.createElement("td");
+            var duration = document.createElement("td");
+            var averageSpeed = document.createElement("td");
+            var elevationGain = document.createElement("td");
+            var elevationLoss = document.createElement("td");
+            fillTrackDetails(distance, duration, averageSpeed, elevationGain, elevationLoss, feature.properties);
+            description.textContent = feature.properties.name;
+            tr.appendChild(description);
+            tr.appendChild(distance);
+            tr.appendChild(duration);
+            tr.appendChild(averageSpeed);
+            tr.appendChild(elevationGain);
+            tr.appendChild(elevationLoss);
+            _c("map-details").appendChild(tr);
+          }
+        }
       </script>
     <% end %>
     <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-4728303-4', 'auto'); ga('send', 'pageview'); </script>

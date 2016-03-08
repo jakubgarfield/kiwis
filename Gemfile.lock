@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jakubgarfield/gpxvis.git
-  revision: ab51eab603013ffd319385f905f2101c596ea56b
+  revision: fee62f39dd7776fb7e5e75d2f5ac1529acd5992d
   specs:
     gpxvis (0.0.1)
       chronic_duration (~> 0.10)
@@ -103,4 +103,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.10.2
+   1.10.6
