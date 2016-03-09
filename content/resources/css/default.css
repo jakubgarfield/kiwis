@@ -40,6 +40,8 @@ nav li { display: inline-block; list-style-type: none;}
 .map #map-canvas, .map #leaflet-map { width: 960px; height: 540px; margin: auto;}
 .gpx footer { padding: 0.5em 0; margin: 0 auto; width: 960px; }
 .gpx table { margin: 0 auto; }
+.gpx thead tr:first-of-type { background: none; }
+.gpx tr:nth-of-type(odd) { background: #eee; }
 
 .content { width: 640px; margin: auto; }
 article footer { width: 800px; margin: 2em auto 2em; }
@@ -74,7 +76,18 @@ a:hover, body > header a:hover { border-color: #8f8f8f;}
   .leaflet-top.leaflet-right {display: none; }
   main { font-size: 0.85em; }
   article img { width: 100%; height: auto; }
-  .gpx table { display: none; }
+
+  .gpx table, .gpx thead, .gpx tbody, .gpx tfoot, .gpx th, .gpx td, .gpx tr { display: block; }
+  .gpx thead tr { position: absolute; top: -9999px; left: -9999px; }
+  .gpx td { border: none; position: relative; padding-left: 50%; }
+  .gpx td:before { position: absolute; top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; }
+
+  .gpx td:nth-of-type(1):before { content: "Description"; }
+  .gpx td:nth-of-type(2):before { content: "Distance (km)"; }
+  .gpx td:nth-of-type(3):before { content: "Moving duration"; }
+  .gpx td:nth-of-type(4):before { content: "Average speed (km/h)"; }
+  .gpx td:nth-of-type(5):before { content: "Elevation gain (m)"; }
+  .gpx td:nth-of-type(6):before { content: "Elevation loss (m)"; }
 }
 
 @media screen and (min-width: 641px) and (max-width: 960px) {
