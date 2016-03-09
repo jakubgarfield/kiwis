@@ -163,18 +163,20 @@
     
       <script src="https://maps.googleapis.com/maps/api/js"></script>
       <script>
-      function initialize() {
-        var map_canvas = document.getElementById("map-canvas");
-        if (map_canvas) {
-          var map_options = {
-            zoom: 13,
-                  center: new google.maps.LatLng(-43.2187191,171.7163086),
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-          };
-          var map = new google.maps.Map(map_canvas, map_options);
-        }
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
+        document.addEventListener("DOMContentLoaded", function(event) {
+          function initialize() {
+            var map_canvas = document.getElementById("map-canvas");
+            if (map_canvas) {
+              var map_options = {
+                zoom: 13,
+                center: new google.maps.LatLng(-43.2187191,171.7163086),
+                  mapTypeId: google.maps.MapTypeId.ROADMAP
+              };
+              var map = new google.maps.Map(map_canvas, map_options);
+            }
+          }
+          google.maps.event.addDomListener(window, 'load', initialize);
+        });
       </script>
     
     
