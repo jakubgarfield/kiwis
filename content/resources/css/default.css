@@ -21,7 +21,7 @@ td, th { padding: 0.4em; font-size: 0.85em;}
 dd { margin: 1em 1.5em;}
 figcaption { text-align: center; font-style: italic; font-size: 0.8em;}
 
-body { width: 960px; margin: auto;}
+.main { width: 960px; margin: auto;}
 article header { text-align: center;}
 article header h2 { font-size: 2.5em; margin-top: 0.75em;}
 footer { text-align: center; margin-top: 3em; font-size: 0.85em;}
@@ -46,13 +46,13 @@ nav li { display: inline-block; list-style-type: none;}
 .content { width: 640px; margin: auto; }
 article footer { width: 800px; margin: 2em auto 2em; }
 
-body > header { text-align: center; color: #d3d3d3;}
-body > header a, body > header a:visited { border-bottom: none; color: #d3d3d3;}
-body > header a:hover { color: #8f8f8f;}
-body > header h1 { font-size: 1em; margin: 0.5em 0 0.25em 0; }
-body > header nav { font-size: 0.85em; }
+.main > header { text-align: center; color: #d3d3d3;}
+.main > header a, .main > header a:visited { border-bottom: none; color: #d3d3d3;}
+.main > header a:hover { color: #8f8f8f;}
+.main > header h1 { font-size: 1em; margin: 0.5em 0 0.25em 0; }
+.main > header nav { font-size: 0.85em; }
 a, a:visited { color: #404040; text-decoration: none; border-bottom: 1px solid #ebebeb;}
-a:hover, body > header a:hover { border-color: #8f8f8f;}
+a:hover, .main > header a:hover { border-color: #8f8f8f;}
 .gallery-link, .gallery-link:hover { border-bottom: none}
 
 .clearfix, section, footer, .main, header { *zoom: 1; }
@@ -68,10 +68,15 @@ a:hover, body > header a:hover { border-color: #8f8f8f;}
 .youtube { position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0; }
 .youtube iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
+.newsletter-signup { width: 100%; text-align: center; background: #f2f2f2; margin-bottom: 1em; line-height: 50px; }
+.inner.newsletter-signup { margin-top: 1.5em; }
+.newsletter-signup input[type="submit"] { background: #e85c41; border-radius: 4px; color: white; padding: 0.5em 0.7em; font-size: 0.7em; border: none; }
+.newsletter-signup input[type="submit"]:hover { background: #db3a1b; }
+.newsletter-signup input[type="email"] { margin: 0 .5em; font-size: 0.8em; padding: 0.3em; width: 15em; }
+
 @media screen and (max-width: 640px) {
-  html { margin: 0.5em; }
-  body, article footer, .content, .map #map-canvas { width: 100%; }
-  body, article footer, .map #map-canvas, .map #leaflet-map, .gpx footer { width: 100%; }
+  main, header, footer { margin-left: 0.5em; margin-right: 0.5em; }
+  .main, article footer, .content, .map #map-canvas, .map #leaflet-map, .gpx footer { width: 100%; }
   .map #map-canvas, .map #leaflet-map { height: 270px; }
   .leaflet-top.leaflet-right {display: none; }
   main { font-size: 0.85em; }
@@ -88,10 +93,12 @@ a:hover, body > header a:hover { border-color: #8f8f8f;}
   .gpx td:nth-of-type(4):before { content: "Average speed (km/h)"; }
   .gpx td:nth-of-type(5):before { content: "Elevation gain (m)"; }
   .gpx td:nth-of-type(6):before { content: "Elevation loss (m)"; }
+
+  .newsletter-signup input[type="email"] { width: 80%; }
 }
 
 @media screen and (min-width: 641px) and (max-width: 960px) {
-  html { margin: 0.5em; }
-  body, article footer, .map #map-canvas, .map #leaflet-map, .gpx footer { width: 100%; }
+  main, header, footer { margin-left: 0.5em; margin-right: 0.5em; }
+  .main, article footer, .map #map-canvas, .map #leaflet-map, .gpx footer { width: 100%; }
   article img { width: 100%; height: auto; }
 }
