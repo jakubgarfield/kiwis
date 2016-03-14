@@ -57,6 +57,9 @@ end
 compile %r{/resources/(css|js)/*} do
 end
 
+compile '/google41172420f42c0922' do
+end
+
 compile "/resources/*" do
   unless item.binary?
     filter :erb
@@ -85,6 +88,10 @@ end
 
 route '/favicon/*' do
   item.identifier.chop.gsub("favicon/", "") + "." + item[:extension]
+end
+
+route '/google41172420f42c0922' do
+  item.identifier.chop + "." + item[:extension]
 end
 
 route %r{/resources/(css|js)/*} do
