@@ -5,8 +5,7 @@ description: A beginning of quiet a weekend when we strolled along a beach on Wa
 kind: article
 tags: [New Zealand, North Island, Honeycomb Rock, Walk, Beach, Wairarapa, Coast, Castlepoint, Patuna Chasm, Bush, River, Ruakokoputuna, Limestone, Gorge, Waterfall, Trip]
 image: 8
-map_zoom: 13
-map_coordinates: -41.3420501,175.3701461
+gpx: true
 ---
 
 After a big Christmas break which we spent around South Island, we kept with exploring places that are a bit closer to our base in Wellington.

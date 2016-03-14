@@ -5,8 +5,7 @@ description: The original hike had to be rescheduled, but still the trip to Lake
 kind: article
 tags: [New Zealand, Kaimanawa Forest, Tree Trunk Gorge, Pillars of Hercules, Turangi, Lake Taupo, Lake Rotopounamu, Bush Walk, Rapids, Tongariro National Park, Okupata Cave, Multiple-day track]
 image: 11
-map_zoom: 12
-map_coordinates: -39.1689477,175.7536988
+gpx: true
 ---
 
 We had a big plan for our last free weekend before Christmas. After a few evenings, spent by looking for a right track, we finally decided to drive up north to Lake Taupo and do a multi-day track in the Kaimanawa Forest.

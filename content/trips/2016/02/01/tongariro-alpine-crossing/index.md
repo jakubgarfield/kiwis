@@ -5,8 +5,7 @@ description: One of the most famous New Zealand’s one-day tracks running throu
 kind: article
 tags: [New Zealand, North Island, Tongariro National Park, One-day Track, Crossing, Volcanoes, Mt Ngauruhoe, Emerald Lakes, Blue Lake, Red Crater, Soda Springs]
 image: 10
-map_zoom: 13
-map_coordinates: -39.0995381,175.6131268
+gpx: true
 ---
 
 Tongariro Alpine Crossing is one of New Zealand’s most popular walks as it is easily accessible, it takes only about 5 to 7 hours and during nice weather conditions you can enjoy amazing views of volcanoes and small colourful lakes.
