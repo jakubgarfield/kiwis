@@ -37,4 +37,4 @@ I really liked the interior of that place as the most of it was built from timbe
 
 !![A chill out in front of fireplace with a pint of beer](76)
 
-So, in my opinion, it wasn’t bad experience. In Jakub’s opinion, it was a waste of money. I’m glad that we went there, but true is that, unless you are really a fan of everything around The Lord of the Rings and The Hobbit movies, it’s probably not worth the money -- and there are [other places](https://barakuba.com/trips/2016/02/01/tongariro-alpine-crossing/) that are much more spectacular. Even when, I believe, it takes plenty of time and effort to keep this place alive.
+So, in my opinion, it wasn’t a bad experience. In Jakub’s opinion, it was a waste of money. I’m glad that we went there, but the true is that, unless you are really a fan of everything around The Lord of the Rings and The Hobbit movies, it’s probably not worth the money -- and there are [other places](https://barakuba.com/trips/2016/02/01/tongariro-alpine-crossing/) that are much more spectacular.
