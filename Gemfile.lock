@@ -39,7 +39,6 @@ GEM
       guard-compat (~> 1.0)
       nanoc (~> 4.0)
     haversine (0.3.0)
-    highline (1.7.8)
     image_size (1.4.2)
     json (1.8.3)
     kramdown (1.10.0)
@@ -90,7 +89,6 @@ DEPENDENCIES
   exifr
   gpxvis!
   guard-nanoc
-  highline
   image_size
   kramdown
   mini_magick
