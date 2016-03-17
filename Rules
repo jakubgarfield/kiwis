@@ -3,14 +3,6 @@
 preprocess do
 end
 
-compile "/photos/*", rep: :w640 do
-  filter :resize_image, { width: 640, quality: 85 } if item[:extension] == "jpg"
-end
-
-compile "/photos/*" do
-  filter :resize_image, { width: 960, quality: 85 } if item[:extension] == "jpg"
-end
-
 compile 'sitemap' do
   filter :erb
 end
@@ -61,15 +53,6 @@ end
 
 route 'robots' do
   item.identifier.chop + ".txt"
-end
-
-
-route "/photos/*", rep: :w640 do
-  "/photos/640x" + item.identifier.to_s[7..-2] + ".jpg" if item[:extension] == "jpg"
-end
-
-route "/photos/*" do
-  "/photos/960x" + item.identifier.to_s[7..-2] + ".jpg" if item[:extension] == "jpg"
 end
 
 route '/favicon/*' do
