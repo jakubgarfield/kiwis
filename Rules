@@ -1,36 +1,14 @@
 #!/usr/bin/env ruby
 
-# A few helpful tips about the Rules file:
-#
-# * The string given to #compile and #route are matching patterns for
-#   identifiers--not for paths. Therefore, you can’t match on extension.
-#
-# * The order of rules is important: for each item, only the first matching
-#   rule is applied.
-#
-# * Item identifiers start and end with a slash (e.g. “/about/” for the file
-#   “content/about.html”). To select all children, grandchildren, … of an
-#   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
-#   because “*” matches zero or more characters.
-
 preprocess do
 end
 
-[{ width: 960, quality: 85 }, { width: 640, quality: 85 }].each do |params|
-  rep = "#{params[:width]}".to_sym
-  compile "/photos/*", rep: rep do
-    filter :resize_image, params if item[:extension] == "jpg"
-  end
-
-  route "/photos/*", rep: rep do
-    "/photos/#{rep}x" + item.identifier.to_s[7..-2] + ".jpg" if item[:extension] == "jpg"
-  end
+compile "/photos/*", rep: :w640 do
+  filter :resize_image, { width: 640, quality: 85 } if item[:extension] == "jpg"
 end
 
 compile "/photos/*" do
-end
-
-route "/photos/*" do
+  filter :resize_image, { width: 960, quality: 85 } if item[:extension] == "jpg"
 end
 
 compile 'sitemap' do
@@ -64,7 +42,6 @@ compile "/resources/*" do
   unless item.binary?
     filter :erb
     filter :rainpress if item[:extension] == "css"
-    filter :uglify_js if item[:extension] == "js"
   end
 end
 
@@ -84,6 +61,15 @@ end
 
 route 'robots' do
   item.identifier.chop + ".txt"
+end
+
+
+route "/photos/*", rep: :w640 do
+  "/photos/640x" + item.identifier.to_s[7..-2] + ".jpg" if item[:extension] == "jpg"
+end
+
+route "/photos/*" do
+  "/photos/960x" + item.identifier.to_s[7..-2] + ".jpg" if item[:extension] == "jpg"
 end
 
 route '/favicon/*' do
@@ -120,5 +106,4 @@ postprocess do
     content_with_image_size = AddImageSize.new.call(content)
     IO.write(file, content_with_image_size)
   end
-  # require "byebug"; byebug
 end

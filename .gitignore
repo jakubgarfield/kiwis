@@ -2,3 +2,4 @@ output/
 tmp/
 crash.log
 .DS_Store
+.byebug_history
