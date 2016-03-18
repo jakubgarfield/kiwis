@@ -37,6 +37,14 @@ def page_url(item)
   @config[:base_url] + item.path
 end
 
+def gallery_image_url(id, image)
+  @config[:base_url] + gallery_image_path(id, image)
+end
+
+def gallery_image_path(id, image)
+  "/photos/960x/#{id}/#{image}.jpg"
+end
+
 def page_image_url(item)
   if item[:image]
     image_url(item, item[:image], rep: 960)
@@ -55,6 +63,10 @@ end
 
 def image_path(item, image, rep: 640)
   "/photos/#{rep}x/#{item_name(item)}/#{image}.jpg"
+end
+
+def find_trip(id)
+  items.find { |i| i.identifier =~ /\/trips\/(.*)#{id}/ }
 end
 
 def article_image(item)

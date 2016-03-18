@@ -5,7 +5,7 @@ title: Tags
 <% tags.each do |tag| %>
   <h2><%= tag %></h2>
   <ul>
-    <% items_with_tag(tag).select { |post| post[:created_at] < Time.now || post[:preview]}.each do |item| %>
+    <% items_with_tag(tag).each do |item| %>
       <li><%= link_to item[:title], item.path %></li>
     <% end %>
   </ul>
