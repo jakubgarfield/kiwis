@@ -66,7 +66,7 @@ def image_path(item, image, rep: 640)
 end
 
 def find_trip(id)
-  items.find { |i| i.identifier =~ /\/trips\/(.*)#{id}/ }
+  articles.find { |i| i.identifier =~ /\/trips\/(.*)#{id}/ }
 end
 
 def article_image(item)
