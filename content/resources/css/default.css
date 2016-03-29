@@ -17,6 +17,7 @@ blockquote { margin: 2em;}
 blockquote cite { color: #8f8f8f;}
 blockquote cite:before { content: '—';}
 td, th { padding: 0.4em; font-size: 0.85em;}
+.table { width: 100%; }
 .table td, .table th { border-bottom: 1px solid #ebebeb;}
 dd { margin: 1em 1.5em;}
 figcaption { text-align: center; font-style: italic; font-size: 0.8em;}
@@ -73,6 +74,7 @@ a:hover, .main > header a:hover { border-color: #8f8f8f;}
 .newsletter-signup input[type="submit"] { background: #e85c41; border-radius: 4px; color: white; padding: 0.5em 0.7em; font-size: 0.7em; border: none; }
 .newsletter-signup input[type="submit"]:hover { background: #db3a1b; }
 .newsletter-signup input[type="email"] { margin: 0 .5em; font-size: 0.8em; padding: 0.3em; width: 15em; }
+
 
 @media screen and (max-width: 640px) {
   main, header, footer { margin-left: 0.5em; margin-right: 0.5em; }
