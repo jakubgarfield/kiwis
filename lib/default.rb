@@ -18,6 +18,14 @@ def post_metadata(post)
   "<aside>#{attribute_to_time(post[:created_at]).strftime("%B %e, %G")}<br />#{post[:tags].join(", ")}.</aside>"
 end
 
+def sorted_gallery_items
+  @sorted_gallery_items ||= items.select { |i| i[:kind] && i[:kind] == "gallery" }
+end
+
+def sorted_articles_with_gallery_items
+  @sorted_articles_with_gallery_items ||= sorted_gallery_items.concat(sorted_articles).flatten.sort_by { |i| i[:created_at] }
+end
+
 def combine_files_content(filenames)
   filenames.map do |filename|
     items.find { |item| item[:filename].end_with? filename }.raw_content

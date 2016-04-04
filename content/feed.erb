@@ -1,7 +1,17 @@
 <%= atom_feed :limit => 10,
-  :articles => sorted_articles,
+  :articles => sorted_articles_with_gallery_items,
   :title => 'Bára & Kuba on the road :: The travel diary of two',
   :author_name => 'Barbora Hájková & Jakub Chodounský',
   :author_uri => @config[:base_url],
-  :content_proc => lambda { |article| "<div>#{article_image(article)}</div><div>#{article.compiled_content}</div>" }
+  :content_proc => lambda { |item|
+    if item[:kind] == "article"
+      "<div>#{article_image(item)}</div><div>#{item.compiled_content}</div>"
+    else
+      %{
+        <img src="#{gallery_image_path(item[:trip], item[:photo])}" alt="#{item[:title]}" />
+        <p>#{item[:description]}</p>
+        <p>#{link_to "Read more", find_trip(item[:trip])}</p>
+      }
+    end
+  }
 %>

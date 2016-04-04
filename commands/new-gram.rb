@@ -21,6 +21,8 @@ run do |opts, args, cmd|
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "title: #{name}"
+    post.puts "created_at: #{Time.now}"
+    post.puts "kind: gallery"
     post.puts "description: "
     post.puts "tags: []"
     post.puts "trip: "

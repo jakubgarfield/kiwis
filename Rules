@@ -10,6 +10,11 @@ end
 compile '/favicon/*' do
 end
 
+compile "/gallery/" do
+  filter :erb
+  layout "page"
+end
+
 compile "/gallery/*" do
   layout "gallery"
 end
