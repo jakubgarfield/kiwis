@@ -19,7 +19,7 @@ def post_metadata(post)
 end
 
 def sorted_gallery_items
-  @sorted_gallery_items ||= items.select { |i| i[:kind] && i[:kind] == "gallery" }
+  @sorted_gallery_items ||= items.select { |i| i[:kind] && i[:kind] == "gallery" }.sort_by { |i| i[:created_at] }.reverse
 end
 
 def sorted_articles_with_gallery_items
