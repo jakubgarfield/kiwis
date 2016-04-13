@@ -5,7 +5,7 @@ description: The first day of our Easter holiday adventure in Tasmania included 
 kind: article
 tags: [Tasmania, Hobart, Lake St Clair, Ferry, Day Walk, Camping, Wildlife, Tiger Snake, Wallaby, Tea Tree]
 image: 5
-gpx: false
+gpx: true
 ---
 
 After coming back from Christmas holiday, we were looking for a destination which we would explore during Easter. We had a really great time in [Australia](https://barakuba.com/trips/2015/04/26/blue-mountains/) last year and eventually we decided to go back to the region. But this time, we planned to visit the Apple Island -- Tasmania.
