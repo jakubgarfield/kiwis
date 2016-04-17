@@ -79,6 +79,10 @@ route "/resources/*" do
   item.identifier.to_s.slice(10, item.identifier.to_s.length - 11) + "." + item[:extension]
 end
 
+route "/feed/*" do
+  item.identifier + "index.xml"
+end
+
 route "*" do
   if ["gpx"].include?(item[:extension])
     # do nothing
