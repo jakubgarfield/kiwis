@@ -3,8 +3,8 @@
   <id>https://barakuba.com/</id>
   <title>Bára &amp; Kuba on the road :: The travel diary of two</title>
   <updated>2016-04-13T09:01:18Z</updated>
-  <link rel="alternate" href="https://barakuba.com/">
-  <link rel="self" href="https://barakuba.com/feed/">
+  <link rel="alternate" href="https://barakuba.com/"/>
+  <link rel="self" href="https://barakuba.com/feed/index.xml"/>
   <author>
     <name>Barbora Hájková &amp; Jakub Chodounský</name>
     <uri>https://barakuba.com</uri>
@@ -14,7 +14,7 @@
     <title type="html">Tasmania&amp;#58; Lake St Clair and tiger snake</title>
     <published>2016-04-13T09:01:18Z</published>
     <updated>2016-04-13T09:01:18Z</updated>
-    <link rel="alternate" href="https://barakuba.com/trips/2016/04/13/tasmania-lake-st-clair-and-tiger-snake/">
+    <link rel="alternate" href="https://barakuba.com/trips/2016/04/13/tasmania-lake-st-clair-and-tiger-snake/"/>
     <content type="html">&lt;div&gt;&lt;a href="https://barakuba.com/photos/960x/tasmania-lake-st-clair-and-tiger-snake/5.jpg" class="gallery-link"&gt;&lt;img src="https://barakuba.com/photos/960x/tasmania-lake-st-clair-and-tiger-snake/5.jpg" alt="Tasmania&amp;#58; Lake St Clair and tiger snake" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;
 &lt;p&gt;After coming back from Christmas holiday, we were looking for a destination which we would explore during Easter. We had a really great time in &lt;a href="https://barakuba.com/trips/2015/04/26/blue-mountains/"&gt;Australia&lt;/a&gt; last year and eventually we decided to go back to the region. But this time, we planned to visit the Apple Island –&amp;nbsp;Tasmania.&lt;/p&gt;
 
@@ -98,7 +98,7 @@
     <title type="html">Magical forest</title>
     <published>2016-04-12T09:18:34Z</published>
     <updated>2016-04-12T09:18:34Z</updated>
-    <link rel="alternate" href="https://barakuba.com/gallery/magical-forest/">
+    <link rel="alternate" href="https://barakuba.com/gallery/magical-forest/"/>
     <content type="html">
         &lt;img src="https://barakuba.com/photos/960x/kapakapanui-track/18.jpg" alt="Magical forest" /&gt;
         &lt;p&gt;After a tough ascent to Kapakapanui peak we dived into this deep magical forest flooded with countless golden sun beams.&lt;/p&gt;
@@ -110,7 +110,7 @@
     <title type="html">Day hike to Mt McKerrow summit</title>
     <published>2016-04-05T09:13:35Z</published>
     <updated>2016-04-05T09:13:35Z</updated>
-    <link rel="alternate" href="https://barakuba.com/trips/2016/04/05/day-hike-to-mt-mckerrow-summit/">
+    <link rel="alternate" href="https://barakuba.com/trips/2016/04/05/day-hike-to-mt-mckerrow-summit/"/>
     <content type="html">&lt;div&gt;&lt;a href="https://barakuba.com/photos/960x/day-hike-to-mt-mckerrow-summit/8.jpg" class="gallery-link"&gt;&lt;img src="https://barakuba.com/photos/960x/day-hike-to-mt-mckerrow-summit/8.jpg" alt="Day hike to Mt McKerrow summit" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;
 &lt;p&gt;It’s been a while since we did &lt;a href="http://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/rimutaka-forest-park/things-to-do/tracks/mt-mckerrow/"&gt;Mt McKerrow track&lt;/a&gt;, but now it would be shame to keep this track just to ourselves as it is conveniently close to Wellington and it’s perfect for a shorter day&amp;nbsp;trip.&lt;/p&gt;
 
@@ -162,7 +162,7 @@
     <title type="html">Countryside in Whanganui Region</title>
     <published>2016-04-03T11:00:01Z</published>
     <updated>2016-04-03T11:00:01Z</updated>
-    <link rel="alternate" href="https://barakuba.com/gallery/countryside-in-whanganui-region/">
+    <link rel="alternate" href="https://barakuba.com/gallery/countryside-in-whanganui-region/"/>
     <content type="html">
         &lt;img src="https://barakuba.com/photos/960x/waihi-falls/1.jpg" alt="Countryside in Whanganui Region" /&gt;
         &lt;p&gt;Halfway through our way to Waihi Falls this astonishing landscape open and left us speechless staring into the blue and green for several minutes.&lt;/p&gt;
@@ -174,7 +174,7 @@
     <title type="html">Hiking food for a 3 day track</title>
     <published>2016-03-29T19:16:20Z</published>
     <updated>2016-03-29T19:16:20Z</updated>
-    <link rel="alternate" href="https://barakuba.com/trips/2016/03/30/hiking-food-for-a-3-day-track/">
+    <link rel="alternate" href="https://barakuba.com/trips/2016/03/30/hiking-food-for-a-3-day-track/"/>
     <content type="html">&lt;div&gt;&lt;a href="https://barakuba.com/photos/960x/hiking-food-for-a-3-day-track/1.jpg" class="gallery-link"&gt;&lt;img src="https://barakuba.com/photos/960x/hiking-food-for-a-3-day-track/1.jpg" alt="Hiking food for a 3 day track" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;Food plays an important part on your hike. It keeps your energy levels up throughout the day and enables you to regenerate over the night. On a three day hike, you don’t have to make a big science out of it as you can pig out later when you get back home, but it’s still nice to have a good meal in the evening and be ready for the next&amp;nbsp;day.&lt;/p&gt;
 
 &lt;p&gt;You want your food to be light, packable, nutritious and reasonably tasty. Tin of tuna in an olive oil is nutritious, tastes delicious, but also quite&amp;nbsp;heavy.&lt;/p&gt;
@@ -403,7 +403,7 @@
     <title type="html">Sound of Queen Charlotte</title>
     <published>2016-03-27T11:00:01Z</published>
     <updated>2016-03-27T11:00:01Z</updated>
-    <link rel="alternate" href="https://barakuba.com/gallery/sound-of-queen-charlotte/">
+    <link rel="alternate" href="https://barakuba.com/gallery/sound-of-queen-charlotte/"/>
     <content type="html">
         &lt;img src="https://barakuba.com/photos/960x/queen-charlotte-track/12.jpg" alt="Sound of Queen Charlotte" /&gt;
         &lt;p&gt;A pictoresque view of the sounds on the way to Anakiwa from Ship Cove when walking one of the New Zealand most beautiful three day tracks - Queen Charlotte.&lt;/p&gt;
@@ -415,7 +415,7 @@
     <title type="html">A day with Hobbits</title>
     <published>2016-03-15T06:58:37Z</published>
     <updated>2016-03-15T06:58:37Z</updated>
-    <link rel="alternate" href="https://barakuba.com/trips/2016/03/15/a-day-with-hobbits/">
+    <link rel="alternate" href="https://barakuba.com/trips/2016/03/15/a-day-with-hobbits/"/>
     <content type="html">&lt;div&gt;&lt;a href="https://barakuba.com/photos/960x/a-day-with-hobbits/71.jpg" class="gallery-link"&gt;&lt;img src="https://barakuba.com/photos/960x/a-day-with-hobbits/71.jpg" alt="A day with Hobbits" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;
 &lt;p&gt;Last Christmas, during our travel around North Island, we made a stop near small town of Matamata. There is not much around, mostly farmlands, and it probably used to be one of those little quiet towns until it became the middle of Middle-Earth. The Shire with its setting known as the &lt;a href="http://www.hobbitontours.com/"&gt;Hobbiton&lt;/a&gt;.&lt;/p&gt;
 
@@ -474,7 +474,7 @@
     <title type="html">Stirling Falls at Milford Sound</title>
     <published>2016-03-13T11:00:01Z</published>
     <updated>2016-03-13T11:00:01Z</updated>
-    <link rel="alternate" href="https://barakuba.com/gallery/stirling-falls-at-milford-sound/">
+    <link rel="alternate" href="https://barakuba.com/gallery/stirling-falls-at-milford-sound/"/>
     <content type="html">
         &lt;img src="https://barakuba.com/photos/960x/milford-and-doubtful-sound/6.jpg" alt="Stirling Falls at Milford Sound" /&gt;
         &lt;p&gt;Majestic waterfalls that also go by name Waimanu Falls and they are accessible by a cruise boat at Milford Sound. Our skipper took us really close to the watterfall so we got a bit of spray of freshwater.&lt;/p&gt;
@@ -486,7 +486,7 @@
     <title type="html">Milford and Doubtful Sound</title>
     <published>2016-03-01T07:21:10Z</published>
     <updated>2016-03-01T07:21:10Z</updated>
-    <link rel="alternate" href="https://barakuba.com/trips/2016/03/01/milford-and-doubtful-sound/">
+    <link rel="alternate" href="https://barakuba.com/trips/2016/03/01/milford-and-doubtful-sound/"/>
     <content type="html">&lt;div&gt;&lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/13.jpg" class="gallery-link"&gt;&lt;img src="https://barakuba.com/photos/960x/milford-and-doubtful-sound/13.jpg" alt="Milford and Doubtful Sound" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;During our Christmas break, we spent two days in the area of &lt;a href="http://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/"&gt;Fiordland National Park&lt;/a&gt; where we planned to make two cruises - a shorter one in Milford Sound and a full day one in Doubtful&amp;nbsp;Sound.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -565,7 +565,7 @@
     <title type="html">Queen Charlotte Track</title>
     <published>2016-02-24T04:30:07Z</published>
     <updated>2016-02-24T04:30:07Z</updated>
-    <link rel="alternate" href="https://barakuba.com/trips/2016/02/24/queen-charlotte-track/">
+    <link rel="alternate" href="https://barakuba.com/trips/2016/02/24/queen-charlotte-track/"/>
     <content type="html">&lt;div&gt;&lt;a href="https://barakuba.com/photos/960x/queen-charlotte-track/9.jpg" class="gallery-link"&gt;&lt;img src="https://barakuba.com/photos/960x/queen-charlotte-track/9.jpg" alt="Queen Charlotte Track" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;
 &lt;p&gt;The first time I’d heard about &lt;a href="http://www.qctrack.co.nz/on-the-track-/walk-the-track/"&gt;this track&lt;/a&gt; was when a friend of mine sent me an article from National Geographic about a selection of world’s best hikes. After a short discussion, we booked a ferry, bought &lt;a href="http://www.qctrack.co.nz/track-info/qctlc-pass/"&gt;passes for access&lt;/a&gt; to private land and then just hoped for a good&amp;nbsp;weather.&lt;/p&gt;
 
