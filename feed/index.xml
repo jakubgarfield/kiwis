@@ -2,13 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://barakuba.com/</id>
   <title>Bára &amp; Kuba on the road :: The travel diary of two</title>
-  <updated>2016-04-17T19:13:44Z</updated>
+  <updated>2016-04-25T05:08:00Z</updated>
   <link rel="alternate" href="https://barakuba.com/"/>
   <link rel="self" href="https://barakuba.com/feed/index.xml"/>
   <author>
     <name>Barbora Hájková &amp; Jakub Chodounský</name>
     <uri>https://barakuba.com</uri>
   </author>
+  <entry>
+    <id>tag:barakuba.com,2016-04-25:/gallery/tongariro-national-park-in-fall/</id>
+    <title type="html">Tongariro National Park in Fall</title>
+    <published>2016-04-25T05:08:00Z</published>
+    <updated>2016-04-25T05:08:00Z</updated>
+    <link rel="alternate" href="https://barakuba.com/gallery/tongariro-national-park-in-fall/"/>
+    <content type="html">
+        &lt;img src="https://barakuba.com/photos/960x/tama-lakes/3.jpg" alt="Tongariro National Park in Fall" /&gt;
+        &lt;p&gt;A small creek running through the dim Tongariro National Park on the way to Tama Lakes in the late Autumn.&lt;/p&gt;
+        &lt;p&gt;&lt;a href="https://barakuba.com/trips/2015/06/07/tama-lakes/"&gt;Read more&lt;/a&gt;&lt;/p&gt;
+      </content>
+  </entry>
   <entry>
     <id>tag:barakuba.com,2016-04-18:/gallery/three-sisters/</id>
     <title type="html">Three Sisters</title>
@@ -492,85 +504,6 @@
         &lt;p&gt;Majestic waterfalls that also go by name Waimanu Falls and they are accessible by a cruise boat at Milford Sound. Our skipper took us really close to the watterfall so we got a bit of spray of freshwater.&lt;/p&gt;
         &lt;p&gt;&lt;a href="https://barakuba.com/trips/2016/03/01/milford-and-doubtful-sound/"&gt;Read more&lt;/a&gt;&lt;/p&gt;
       </content>
-  </entry>
-  <entry>
-    <id>tag:barakuba.com,2016-03-01:/trips/2016/03/01/milford-and-doubtful-sound/</id>
-    <title type="html">Milford and Doubtful Sound</title>
-    <published>2016-03-01T07:21:10Z</published>
-    <updated>2016-03-01T07:21:10Z</updated>
-    <link rel="alternate" href="https://barakuba.com/trips/2016/03/01/milford-and-doubtful-sound/"/>
-    <content type="html">&lt;div&gt;&lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/13.jpg" class="gallery-link"&gt;&lt;img src="https://barakuba.com/photos/960x/milford-and-doubtful-sound/13.jpg" alt="Milford and Doubtful Sound" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;During our Christmas break, we spent two days in the area of &lt;a href="http://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/"&gt;Fiordland National Park&lt;/a&gt; where we planned to make two cruises - a shorter one in Milford Sound and a full day one in Doubtful&amp;nbsp;Sound.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/2.jpg" class="gallery-link"&gt;&lt;img alt="A view of Milford Sound" src="https://barakuba.com/photos/640x/milford-and-doubtful-sound/2.jpg" /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;A view of Milford Sound&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;From our base in &lt;a href="http://www.yha.co.nz/hostels/south-island-hostels/yha-te-anau/"&gt;Te Anau&lt;/a&gt;, we headed off to Milford Sound along State Highway 94 which is regarded as one of the highest and most scenic highways in New Zealand. There is a number of short sidewalks which are definitely worth stopping such as The Mirror Lakes or The Chasm but just drive itself through the glacial Eglinton Valley is&amp;nbsp;spectacular.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/1.jpg" class="gallery-link"&gt;&lt;img alt="A view across Eglinton Valley" src="https://barakuba.com/photos/640x/milford-and-doubtful-sound/1.jpg" /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;A view across Eglinton Valley&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Once we reached the Homer Tunnel, the traffic started to be quite dense as the tunnel was only one way and operated by a traffic light. About 1200m long tunnel hewed from solid granite had nothing to do with those wide, smooth tunnels in the Alps in&amp;nbsp;Europe.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/3.jpg" class="gallery-link"&gt;&lt;img alt="Waiting for our cruise at departure terminal" src="https://barakuba.com/photos/640x/milford-and-doubtful-sound/3.jpg" /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;Waiting for our cruise at departure terminal&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We arrived in Milford Sound shortly after midday and as the traffic around the tunnel indicated, the place was really busy and crowded. Boats of different operators were taking turns at the harbour and any minute we could hear a noise of small scenic planes in the air. I was at the place about 10 years ago and I don’t remember such a&amp;nbsp;buzz.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/4.jpg" class="gallery-link"&gt;&lt;img alt="Heading off to the Tasman Sea" src="https://barakuba.com/photos/640x/milford-and-doubtful-sound/4.jpg" /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;Heading off to the Tasman Sea&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;While waiting for our cruise, we made an easy 20 minute loop through beech forest and along shore with some nice views of the fjord and surrounding peaks. But then we were ready to hop on &lt;a href="http://www.mitrepeak.com"&gt;our boat&lt;/a&gt; and enjoy the&amp;nbsp;cruise.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/5.jpg" class="gallery-link"&gt;&lt;img alt="The amazing weather highlighted the beauty of the sound" src="https://barakuba.com/photos/640x/milford-and-doubtful-sound/5.jpg" /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;The amazing weather highlighted the beauty of the sound&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The trip lasted about two hours and from harbour we cruised about 16 km to the open Tasman Sea. Straight at the beginning, we passed a massive Bowen Falls and the iconic Mitre Peak. We spotted a few fur seal colonies lying on the rocks. Once we reached St. Anne’s lighthouse and got to open sea, the waves were quite rough and our boat swung a lot. Luckily, our skipper didn’t let us suffer too long and after few minutes turned the boat back to the harbour. We concluded the cruise with the spray from Stirling Falls as the bout tried to approach it as close as&amp;nbsp;possible.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/6.jpg" class="gallery-link"&gt;&lt;img alt="We got a bit of spray from Stirling Falls" src="https://barakuba.com/photos/640x/milford-and-doubtful-sound/6.jpg" /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;We got a bit of spray from Stirling Falls&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We had not even absorbed the Milford Sound experience yet and we were already heading off to Lake Manapouri, where we started our &lt;a href="http://www.goorange.co.nz/doubtful-sound/the-cruise/"&gt;full day cruise to Doubtful Sound&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/8.jpg" class="gallery-link"&gt;&lt;img alt="On the way to Doubtful Sound" src="https://barakuba.com/photos/640x/milford-and-doubtful-sound/8.jpg" /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;On the way to Doubtful Sound&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The day started with an early and quiet cruise across Lake Manapouri to the West Arm Visitor Centre where we got some interesting information about the adjacent &lt;a href="https://en.wikipedia.org/wiki/Manapouri_Power_Station"&gt;Underground Power Station&lt;/a&gt;. From there, we carried on by coach over Wilmot Pass into Doubtful Sound. In the morning, we were a bit in a rush but in the afternoon, on the way back, our driver made a few stops along this section, so we had enough time to wander around and enjoy all&amp;nbsp;views.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/11.jpg" class="gallery-link"&gt;&lt;img alt="The silence and calm were amazing" src="https://barakuba.com/photos/640x/milford-and-doubtful-sound/11.jpg" /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;The silence and calm were amazing&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The second part of the day started at Dove Cove where we got on board and cruised again about 30 km to the open Tasman Sea. We slowly sailed between tiny islands which reminded turtles lying on the water surface and big peaks which reminded an elephant’s&amp;nbsp;head.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/12.jpg" class="gallery-link"&gt;&lt;img alt="An elephant - do you see it too?" src="https://barakuba.com/photos/640x/milford-and-doubtful-sound/12.jpg" /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;An elephant - do you see it too?&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;As we got closer to the mouth of sound we chanced on fur seals. Later, on the way back, we met a few others that were excluded from their colonies to bulk themselves. Unfortunately, we didn’t have any luck to see penguins or&amp;nbsp;dolphins.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href="https://barakuba.com/photos/960x/milford-and-doubtful-sound/9.jpg" class="gallery-link"&gt;&lt;img alt="It was a bit windy sometimes, but we had a lot of fun" src="https://barakuba.com/photos/640x/milford-and-doubtful-sound/9.jpg" /&gt;&lt;/a&gt;
-  &lt;figcaption&gt;It was a bit windy sometimes, but we had a lot of fun&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;It was definitely a good decision to go with the first early cruise option because there were  no other boats and everything around looked quiet and calm, so we could fully enjoy that isolation. It was such a big contrast to busy Milford Sound and, eventually, it was also the reason why we preferred Doubtful Sound in the final&amp;nbsp;rating.&lt;/p&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>
 
