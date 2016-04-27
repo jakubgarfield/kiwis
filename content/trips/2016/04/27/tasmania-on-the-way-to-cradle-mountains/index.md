@@ -1,5 +1,5 @@
 ---
-title: Tasmania&#58; On the Way to Cradle Mountains
+title: Tasmania&#58; on the way to Cradle Mountains
 created_at: 2016-04-27 18:24:20 +1200
 description: A long day spent on road between Lake St Clair and Cradle Mountains interspersed with a number of short walks in the bush and rounded off with spotting more exciting wildlife.
 kind: article
