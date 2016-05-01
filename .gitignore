@@ -1,3 +1,4 @@
+.bundle/
 output/
 tmp/
 crash.log
