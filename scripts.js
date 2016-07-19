@@ -52,9 +52,10 @@ L.Control.Elevation=L.Control.extend({options:{position:"topright",theme:"lime-t
 
   if (window.geojson !== undefined) {
     var map = new L.Map('leaflet-map');
-    var url = 'https://otile{s}-s.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg';
-    var attribution = '<a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors</a>';
-    var tileLayer = new L.TileLayer(url, {subdomains:"1234",attribution: attribution});
+
+    var tileLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
     var elevation = L.control.elevation({
       position: "topright",
