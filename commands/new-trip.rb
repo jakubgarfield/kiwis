@@ -62,6 +62,8 @@ def process_image(filename, output_filename, width, quality)
     `/opt/mozjpeg/bin/jpegtran -outfile #{output_filename} -optimize #{output_filename}`
   elsif File.exists?("/usr/local/opt/mozjpeg/bin/jpegtran")
     `/usr/local/opt/mozjpeg/bin/jpegtran -outfile #{output_filename} -optimize #{output_filename}`
+  elsif File.exists?("/home/jakub/mozjpeg/jpegtran")
+    `/home/jakub/mozjpeg/jpegtran -outfile #{output_filename} -optimize #{output_filename}`
   else
     exit_with("mozjpeg needs to be installed")
   end
