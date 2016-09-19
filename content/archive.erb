@@ -5,7 +5,7 @@ title: Archive
 <div class="archive">
   <% sorted_articles_grouped_by_country.each do |group| %>
     <div>
-      <h3><a href="#" class="country-link <%= group[0].gsub(" ", "-").downcase %>"><%= group[0] %></a></h3>
+      <h3 class="<%= group[0].gsub(" ", "-").downcase %>"><a href="#" class="country-link"><%= group[0] %></a></h3>
       <% group[1].each do |post| %>
         <ul class="hidden">
           <li>

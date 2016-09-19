@@ -32,11 +32,12 @@ nav li { display: inline-block; list-style-type: none;}
 .post h2 { margin-bottom: 0.5em; }
 .post aside { color: #8f8f8f; margin-bottom: 2.5em; font-size: 0.85em; }
 
-.archive h3 { margin: 0.5em 0; }
-.archive .bali:before { content: "🇮🇩 "; }
-.archive .australia:before, .archive .tasmania:before { content: "🇦🇺 "; }
-.archive .new-zealand:before { content: "🇳🇿 "; }
-.archive .other:before { content: "✈ "; }
+.archive h3 { margin: 0.5em 0; padding:0 0 0 40px; white-space: nowrap; }
+/* Flag Icons by GoSquared (http://www.gosquared.com/) */
+.archive .bali { background:url('/img/Indonesia.png') center left no-repeat; }
+.archive .australia, .archive .tasmania { background:url('/img/Australia.png') center left no-repeat; }
+.archive .new-zealand { background:url('/img/New-Zealand.png') center left no-repeat; }
+.archive .other { background:url('/img/backpack.png') center left no-repeat; }
 .archive ul { margin-top: 1em; margin-bottom: 2em; }
 .archive h3 span { font-size: 0.8em; }
 .archive .hidden { display: none; }
