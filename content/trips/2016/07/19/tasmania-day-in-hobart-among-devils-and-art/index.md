@@ -3,7 +3,7 @@ title: Tasmania&#58; Day in Hobart Among Devils and Art
 created_at: 2016-07-19 21:41:46 +1200
 description: Our Tasmanian adventure was getting to its end. Back in Hobart we spent our last day among animals, plants and art, and enjoyed a few more panoramic views from Mt Wellington. But then it was already time to catch a plane and go back home.
 kind: article
-tags: [Art, Bonorong, Botanical Garden, Gallery, Hobart, MONA, Mt Wellington, Sanctuary, Tasmanian Devil, Wombat, Wildlife]
+tags: [Art, Bonorong, Botanical Garden, Gallery, Hobart, MONA, Mt Wellington, Sanctuary, Tasmanian Devil, Wombat, Wildlife, Tasmania]
 image: 11
 ---
 

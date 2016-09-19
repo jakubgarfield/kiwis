@@ -3,7 +3,7 @@ title: Chilly hiking in Nelson Lakes National Park
 created_at: 2016-09-18 16:24:58 +1200
 description: A demanding ascent to St Arnaud Range that left a few mooses short of breath and a trip to waterfall named by the forgotten bottle of whiskey on the second and the third day of our Nelson Lakes Park adventure.
 kind: article
-tags: [Arnaud Range, Camping, Hike, Lake, Mountain, Nelson, Parachute Rocks, Snow, Trip, Walk, Whiskey Falls, Winter]
+tags: [Arnaud Range, Camping, Hike, Lake, Mountain, Nelson, Parachute Rocks, Snow, Trip, Walk, Whiskey Falls, Winter, New Zealand]
 image: 4
 gpx: true
 ---

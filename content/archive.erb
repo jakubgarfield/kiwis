@@ -2,11 +2,38 @@
 title: Archive
 ---
 
-<ul class="archive">
-<% sorted_articles.each do |post| %>
-    <li>
-        <%= link_to post[:title], post.path %>
-        <%= post_metadata(post) %>
-    </li>
-<% end %>
-</ul>
+<div class="archive">
+  <% sorted_articles_grouped_by_country.each do |group| %>
+    <div>
+      <h3><a href="#" class="country-link <%= group[0].gsub(" ", "-").downcase %>"><%= group[0] %></a></h3>
+      <% group[1].each do |post| %>
+        <ul class="hidden">
+          <li>
+              <%= link_to post[:title], post.path %>
+              <%= post_metadata(post) %>
+          </li>
+        </ul>
+      <% end %>
+    </div>
+  <% end %>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  function toggle(object) {
+    if (object.className == "hidden")
+      object.className = "";
+    else
+      object.className = "hidden";
+  }
+  document.addEventListener("DOMContentLoaded", function(event) {
+    Array.prototype.forEach.call(document.getElementsByClassName("country-link"), function(country) {
+      country.addEventListener("click", function(event) {
+        event.preventDefault();
+        var div = event.target.parentElement.parentElement;
+        Array.prototype.forEach.call(div.getElementsByTagName("ul"), function(list) {
+          toggle(list);
+        });
+      });
+    });
+  });
+</script>

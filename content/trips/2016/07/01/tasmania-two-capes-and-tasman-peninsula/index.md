@@ -3,7 +3,7 @@ title: Tasmania&#58; Two Capes and Tasman Peninsula
 created_at: 2016-07-01 09:51:48 +1200
 description: Two days in the area of Tasman Peninsula full of exploring little local gems, undertaking two half day trips to Cape Hauy and Cape Raoul, and enjoying beautiful sceneries of exposed high cliffs and swirling sea.
 kind: article
-tags: [Beach, Camping, Cape Hauy, Cape Raoul, Cliff, Day Trip, Fortescue  Bay, Remarkable Cave, Sea, Tasman Peninsula, Wildlife]
+tags: [Beach, Camping, Cape Hauy, Cape Raoul, Cliff, Day Trip, Fortescue  Bay, Remarkable Cave, Sea, Tasman Peninsula, Wildlife, Tasmania]
 image: 8
 gpx: true
 ---

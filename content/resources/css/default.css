@@ -32,6 +32,14 @@ nav li { display: inline-block; list-style-type: none;}
 .post h2 { margin-bottom: 0.5em; }
 .post aside { color: #8f8f8f; margin-bottom: 2.5em; font-size: 0.85em; }
 
+.archive h3 { margin: 0.5em 0; }
+.archive .bali:before { content: "🇮🇩 "; }
+.archive .australia:before, .archive .tasmania:before { content: "🇦🇺 "; }
+.archive .new-zealand:before { content: "🇳🇿 "; }
+.archive .other:before { content: "✈ "; }
+.archive ul { margin-top: 1em; margin-bottom: 2em; }
+.archive h3 span { font-size: 0.8em; }
+.archive .hidden { display: none; }
 .archive aside { color: #8f8f8f; font-size: 0.85em; margin-bottom: 0.5em;}
 
 .listing h2 { font-size: 2em; margin-bottom: 0.5em;}

@@ -32,6 +32,30 @@ def combine_files_content(filenames)
   end.join
 end
 
+def sorted_articles_grouped_by_country
+  sorted_articles.group_by do |item|
+    if item[:tags].include?("New Zealand")
+      "New Zealand"
+    elsif item[:tags].include?("Tasmania")
+      "Tasmania"
+    elsif item[:tags].include?("Australia")
+      "Australia"
+    elsif item[:tags].include?("Bali")
+      "Bali"
+    else
+      "Other"
+    end
+  end.sort do |a, b|
+    if a[0] == "Other"
+      1
+    elsif b[0] == "Other"
+      -1
+    else
+      a[0] <=> b[0]
+    end
+  end.to_h
+end
+
 def tags
   tags = Set.new
   items.each do |item|

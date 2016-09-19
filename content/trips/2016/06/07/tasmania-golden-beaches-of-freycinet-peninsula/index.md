@@ -3,7 +3,7 @@ title: Tasmania&#58; golden beaches of Freycinet Peninsula
 created_at: 2016-06-07 21:10:05 +1200
 description: Transfer from Cradle Mountain to Freycinet Peninsula where we spent another day wandering along white sand beaches, rocky Hazards or enjoying views of dramatic coastal cliffs. Also, another interesting animal was spotted.
 kind: article
-tags: [Beach, Camping, Cape Tourville, Coles Bay, Day Trip, Echidna,  Friendly Beaches, Freycinet Peninsula, Lighthouse, Moulting Lagoon, The Hazards, Wineglass Bay]
+tags: [Beach, Camping, Cape Tourville, Coles Bay, Day Trip, Echidna,  Friendly Beaches, Freycinet Peninsula, Lighthouse, Moulting Lagoon, The Hazards, Wineglass Bay, Tasmania]
 image: 3
 gpx: true
 ---

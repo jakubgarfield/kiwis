@@ -3,7 +3,7 @@ title: Chilly camping in Nelson Lakes National Park
 created_at: 2016-08-16 20:55:02 +1200
 description: Sunny days full of walks in Nelson Lakes National Park providing amazing views of snow-covered hills on one side but freezing nights with cold feet and noses on the other. That was our Queen's birthday weekend in South Island.
 kind: article
-tags: [Nelson Lakes, Camping, Hike, Lake, Mt Robert, Mountain, Nelson, Snow, Trip, Walk, Winter]
+tags: [Nelson Lakes, Camping, Hike, Lake, Mt Robert, Mountain, Nelson, Snow, Trip, Walk, Winter, New Zealand]
 image: 10
 gpx: true
 ---
