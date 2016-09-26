@@ -1,0 +1,12 @@
+---
+title: Older posts
+---
+
+<ul class="older">
+  <% sorted_articles.each do |post| %>
+    <li>
+      <%= link_to post[:title], post.path %>
+      <%= post_metadata(post) %>
+    </li>
+  <% end %>
+</ul>

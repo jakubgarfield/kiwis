@@ -41,7 +41,7 @@ nav li { display: inline-block; list-style-type: none;}
 .archive ul { margin-top: 1em; margin-bottom: 2em; }
 .archive h3 span { font-size: 0.8em; }
 .archive .hidden { display: none; }
-.archive aside { color: #8f8f8f; font-size: 0.85em; margin-bottom: 0.5em;}
+.older aside, .archive aside { color: #8f8f8f; font-size: 0.85em; margin-bottom: 0.5em;}
 
 .listing h2 { font-size: 2em; margin-bottom: 0.5em;}
 .listing aside { color: #8f8f8f; font-size: 0.85em; margin-bottom: 1.5em; }
