@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://barakuba.com/</loc>
-    <lastmod>2016-07-19</lastmod>
+    <lastmod>2016-09-26</lastmod>
   </url>
   <url>
     <loc>https://barakuba.com/archive/</loc>
@@ -47,6 +47,10 @@
   <url>
     <loc>https://barakuba.com/google41172420f42c0922.html</loc>
     <lastmod>2016-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://barakuba.com/older/</loc>
+    <lastmod>2016-09-26</lastmod>
   </url>
   <url>
     <loc>https://barakuba.com/privacy-policy/</loc>
