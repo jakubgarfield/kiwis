@@ -64,6 +64,6 @@ We passed a couple of junctions with alternative ways to Mt Holdsworth and after
 
 Just before we arrived at the car park, we walked through the last section of the track, the Donnelly Flat, which is also a great area for picnics and BBQ as there are fire pits available.
 
-!![A good wrap up was essential in the chilly morning](36)
+!![A good wrap up was essential in the chilly morning](39)
 
 Ultimately, it was worth waiting all that time until the weather was reasonable because we could fully enjoy this gem of Tararuas. Definitely recommended!
