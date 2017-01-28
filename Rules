@@ -19,8 +19,9 @@ compile "/gallery/*" do
   layout "gallery"
 end
 
-compile "/trips/*" do
+compile %r{/(trips|itineraries)/*} do
   if item[:extension] == "md"
+    filter :convert_map_markup
     filter :convert_image_markup
     filter :kramdown
     filter :typogruby

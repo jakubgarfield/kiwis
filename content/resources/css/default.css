@@ -63,7 +63,7 @@ article footer { width: 800px; margin: 2em auto 2em; }
 .main > header nav { font-size: 0.85em; }
 a, a:visited { color: #404040; text-decoration: none; border-bottom: 1px solid #ebebeb;}
 a:hover, .main > header a:hover { border-color: #8f8f8f;}
-.gallery-link, .gallery-link:hover { border-bottom: none}
+.gallery-link, .gallery-link:hover, .itinerary-link, .itinerary-link:hover { border-bottom: none}
 
 .clearfix, section, footer, .main, header { *zoom: 1; }
 .clearfix:before, .clearfix:after, section:before, section:after, footer:before, footer:after, header:before, header:after { display: table; line-height: 0; content: "";}
@@ -84,6 +84,7 @@ a:hover, .main > header a:hover { border-color: #8f8f8f;}
 .newsletter-signup input[type="submit"]:hover { background: #db3a1b; }
 .newsletter-signup input[type="email"] { margin: 0 .5em; font-size: 0.8em; padding: 0.3em; width: 15em; }
 
+.cardboard { background: url("/img/cardboard.jpg") center left no-repeat; }
 
 @media screen and (max-width: 640px) {
   main, header, footer { margin-left: 0.5em; margin-right: 0.5em; }

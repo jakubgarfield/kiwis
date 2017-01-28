@@ -79,7 +79,7 @@ end
 
 def page_image_url(item)
   if item[:image]
-    image_url(item, item[:image], rep: 960)
+    image_url(item, item[:image], rep: 960, extension: item[:itinerary] ? "png" : "jpg")
   else
     @config[:base_url] + "/img/about.jpg"
   end
@@ -89,20 +89,20 @@ def item_name(item)
   item.identifier.to_s.split("/").last
 end
 
-def image_url(item, image, rep: 640)
-  @config[:base_url] + image_path(item, image, rep: rep)
+def image_url(item, image, rep: 640, extension: "jpg")
+  @config[:base_url] + image_path(item, image, rep: rep, extension: extension)
 end
 
-def image_path(item, image, rep: 640)
-  "/photos/#{rep}x/#{item_name(item)}/#{image}.jpg"
+def image_path(item, image, rep: 640, extension: "jpg")
+  "/photos/#{rep}x/#{item_name(item)}/#{image}.#{extension}"
 end
 
 def find_trip(id)
   articles.find { |i| i.identifier =~ /\/trips\/(.*)#{id}/ }
 end
 
-def article_image(item)
-  "<a href=\"#{image_path(item, item[:image], rep: 960)}\" class=\"gallery-link\"><img src=\"#{image_path(item, item[:image], rep: 960)}\" alt=\"#{item[:title]}\" /></a>"
+def article_image(item, extension: "jpg")
+  "<a href=\"#{image_path(item, item[:image], rep: 960, extension: extension)}\" class=\"gallery-link\"><img src=\"#{image_path(item, item[:image], rep: 960, extension: extension)}\" alt=\"#{item[:title]}\" /></a>"
 end
 
 def generate_geojson(item)

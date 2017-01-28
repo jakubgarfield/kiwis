@@ -8,7 +8,13 @@ description: "A site about travelling and living in foreign countries. Full of p
       <header>
         <h2><%= link_to post[:title], post.path %></h2>
         <%= post_metadata(post) %>
-        <a href="<%= post.path %>" class="image"><img src="<%= image_path(post, post[:image]) %>" /></a>
+        <% if post[:itinerary] %>
+          <div class="cardboard">
+            <a href="<%= post.path %>" class="image"><img src="<%= image_path(post, post[:image], extension: "png") %>" /></a>
+          </div>
+        <% else %>
+          <a href="<%= post.path %>" class="image"><img src="<%= image_path(post, post[:image]) %>" /></a>
+        <% end %>
       </header>
       <p><%= post[:description] %></p>
       <p><a href="<%= post.path %>">read more &#8594;</a></p>

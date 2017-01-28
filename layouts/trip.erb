@@ -6,7 +6,13 @@
         <%= attribute_to_time(@item[:created_at]).strftime("%B %e, %G") %><br />
         <%=  @item[:tags].join(", ") %>
       </aside>
-      <%= article_image(@item) %>
+      <% if @item[:itinerary] %>
+        <div class="cardboard">
+          <img src="<%= image_path(@item, @item[:image], rep: 960, extension: "png") %>" alt="<%= @item[:title] %>" />
+        </div>
+      <% else %>
+        <%= article_image(@item) %>
+      <% end %>
     </header>
 
     <div class="content">
