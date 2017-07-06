@@ -31,7 +31,7 @@ run do |opts, args, cmd|
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
-    post.puts "title: #{name}"
+    post.puts "title: #{name.gsub(":", "&#58;")}"
     post.puts "created_at: #{timestamp}"
     post.puts "description:"
     post.puts "kind: article"
