@@ -20,7 +20,7 @@ The night on moving train was a quite comfortable and in the morning, when we go
 
 !![Hoang Yen Chao Castle in Bac Ho](33)
 
-Bac Ho was a small town and we chose to stay in a homestay which was run by a local family. We were keen to try this style of accommodation to get some authentic experience and have a closer insight into the lifestyle. Our homestay had a higher standard than a typical local house but even though it was interesting to sit with the family around a fire pit, drink tea and crunched pumpkin seeds.
+Bac Ho was a small town and we chose to stay in a homestay which was run by a local family. We were keen to try this style of accommodation to get some authentic experience and have a closer insight into the lifestyle. Our homestay had a higher standard than a typical local house but it was still interesting to sit with the family around a fire pit, drink tea and crunch pumpkin seeds.
 
 !![A few minutes of better view - Bac Ho surroundings](41)
 
@@ -30,7 +30,7 @@ In the afternoon, we went for a walk around town. We strolled to a large mansion
 
 From there, we moved further to the lake, passed a local school full of kids and walked the little streets where pigs and chickens ran in front of the houses. It was a chilly winter day and a whole town was wrapped into the smell of burned firewood.
 
-Later, a friend of our host family took us for a trip to a near village where a Hmong minority lived. At first, we had to climb up through rice terraces. Unfortunately, at that time of the year, they were nothing but hollow muddy fields instead of beautiful colourful beds. In past few days it had also rained a lot, so all the paths were slippery and our 7kg carry on luggage didn’t allow for much of spare clothes.
+Later, a friend of our host family took us for a trip to a near village where a Hmong minority lived. At first, we had to climb up through rice terraces. Unfortunately, at that time of the year, there were nothing but hollow muddy fields instead of beautiful colourful beds. In past few days it had also rained a lot, so all the paths were slippery and our 7kg carry on luggage didn’t allow for much of spare clothes.
 
 !![A view was terrible but terraces were really there all around](37)
 
@@ -62,7 +62,7 @@ We climbed the steps to the top of a small mound. There was a square dedicated t
 
 We left the place just in time because two big buffaloes got a bit nervous and started to fight against each other which made it difficult for tiny owners to calm them down.
 
-At last, we wrapped our staying with a ride on horse wagon around the town hills. It provided great views of rice terraces and the town itself, however, we couldn’t but feel really sorry for a poor horse because at some parts of the track it struggled a lot.
+At last, we wrapped our staying with a ride on horse wagon around the town hills. It provided great views of rice terraces and the town itself, however, we couldn’t help but feel really sorry for a poor horse because at some parts of the track it struggled a lot.
 
 !![The essential equipment for housekeeping](49)
 
