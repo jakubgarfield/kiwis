@@ -42,6 +42,12 @@ def sorted_articles_grouped_by_country
       "Australia"
     elsif item[:tags].include?("Bali")
       "Bali"
+    elsif item[:tags].include?("Vietnam")
+      "Vietnam"
+    elsif item[:tags].include?("New Caledonia")
+      "New Caledonia"
+    elsif item[:tags].include?("Samoa")
+      "Samoa"
     else
       "Other"
     end

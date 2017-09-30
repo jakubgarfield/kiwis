@@ -37,6 +37,10 @@ nav li { display: inline-block; list-style-type: none;}
 .archive .bali { background:url('/img/Indonesia.png') center left no-repeat; }
 .archive .australia, .archive .tasmania { background:url('/img/Australia.png') center left no-repeat; }
 .archive .new-zealand { background:url('/img/New-Zealand.png') center left no-repeat; }
+.archive .vietnam { background:url('/img/Vietnam.png') center left no-repeat; }
+.archive .new-caledonia { background:url('/img/New-Caledonia.png') center left no-repeat; }
+.archive .samoa { background:url('/img/Samoa.png') center left no-repeat; }
+.archive .czech-republic { background:url('/img/Czech-Republic.png') center left no-repeat; }
 .archive .other { background:url('/img/backpack.png') center left no-repeat; }
 .archive ul { margin-top: 1em; margin-bottom: 2em; }
 .archive h3 span { font-size: 0.8em; }
