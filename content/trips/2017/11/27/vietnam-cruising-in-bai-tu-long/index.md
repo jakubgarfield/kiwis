@@ -1,5 +1,5 @@
 ---
-title: Vietnam&#58; Cruising in Bai Tu Long
+title: Vietnam&#58; cruising in Bai Tu Long
 created_at: 2017-11-27 21:17:39 +1300
 description: Time for indulgence! For two days we were cruising in Bai Tu Long Bay. We visited a limestone cave, sailed through a local floating village and went kayaking. We admired the beauty of hundreds of islands scattered across the seascape. Our farewell to North Vietnam could not have been better.
 kind: article
