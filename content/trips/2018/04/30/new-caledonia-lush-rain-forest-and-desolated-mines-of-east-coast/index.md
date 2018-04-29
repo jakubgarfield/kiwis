@@ -16,28 +16,28 @@ In the past, this part of island was a significant mining region but it also lef
 
 !![Black soil and burned vegetation -- you don’t find these pictures in tour brochures](46)
 
-However, once we got to Ouegoa -- a historical copper and gold rush town -- and near the coast, the amount of rainfall got higher and everything was greener. We stopped at a couple of desolate beaches. The views of palm trees bending down water and rapidly rising hillsides were spectacular. We had a quick dip in the ocean but then moved on to the next stop -- Tao waterfall. 
+However, once we got to Ouegoa -- a historical copper and gold rush town -- and near the coast, the amount of rainfall got higher and everything was greener. We stopped at a couple of desolate beaches. The views of palm trees bending down water and rapidly rising hillsides were spectacular. We had a quick dip in the ocean but then moved on to the next stop -- Tao waterfall.
 
 !![The next stop -- Tao waterfall](18)
 
 There were many waterfalls along the road but this one was easily accessible from and was definitely worth stopping by. We spent there a good half an hour hopping from boulder to boulder and dipping in clean water.
 
-!!A great place for a refreshing dip](52)
+!![A great place for a refreshing dip](52)
 
-When we got back to the car we carried on to Ouaième ferry. It is the last working Caledonian ferry and should be soon replaced by a bridge. The ferry was small and fitted only a couple of vehicles but operates 24/7 and it was free. 
+When we got back to the car we carried on to Ouaième ferry. It is the last working Caledonian ferry and should be soon replaced by a bridge. The ferry was small and fitted only a couple of vehicles but operates 24/7 and it was free.
 
 !![Ouaième ferry -- according to local tribes also the place is where the entrance to the land of dead people is found](20)
 
 
 We arrived in Hienghene, where we made our next stop. The town is located on the edge of Hienghene river mouth and is popular for its limestone rock formation called La Poule. The stone which sits in the lagoon is easily spotted from lookouts along the road or there was an option to hire a kayak and paddle around. But we skipped that and after a lunch we moved on.
 
-!![La Poule -- the famous Hienghène's brooding hen](61) 
+!![La Poule -- the famous Hienghène's brooding hen](61)
 
 It took us a couple more hours before we arrived in Port De Poindimié where we were going to stay over the night. [The Camp De Tiakan](https://www.facebook.com/Camping-de-Tiakan-1665197317053742/) was an amazing spot situated in a palm grove right next to the beach. The only worry was not being hit by falling coconuts. We picked a site with a view of ocean and in the evening we watched the sunset while having dinner. It was definitely the best campsite during our stay in Caledonia. Basic but beautiful and clean.
 
 !![A top spot for the romantic sunset -- Camp De Tiakan](64)
 
-In the morning, we had to set off early as there was a lot of driving and we had to get back on west coast. Before we left the coast and started to go up to the central  mountain range we had stopped at Ba waterfall near Meomo village. The waterfall was off the main road and an access path to it looked a bit dodgy. But luckily nobody kicked us out. 
+In the morning, we had to set off early as there was a lot of driving and we had to get back on west coast. Before we left the coast and started to go up to the central  mountain range we had stopped at Ba waterfall near Meomo village. The waterfall was off the main road and an access path to it looked a bit dodgy. But luckily nobody kicked us out.
 
 !![Ba waterfall](70)
 
