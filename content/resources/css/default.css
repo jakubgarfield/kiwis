@@ -73,20 +73,8 @@ a:hover, .main > header a:hover { border-color: #8f8f8f;}
 .clearfix:before, .clearfix:after, section:before, section:after, footer:before, footer:after, header:before, header:after { display: table; line-height: 0; content: "";}
 .clearfix:after, section:after, footer:after, header:after { clear: both;}
 
-.social ul { margin: 1em auto 2em auto; width: 210px; }
-.social li { width: 100px; list-style: none; display: inline-block; }
-.social .facebook { text-align: left;}
-.social .twitter { text-align: right; }
-.social .fb-share-button { margin-top: -29px; position: absolute; }
-
 .youtube { position: relative; padding-bottom: 56.25%; /* 16:9 */ padding-top: 25px; height: 0; }
 .youtube iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-
-.newsletter-signup { width: 100%; text-align: center; background: #f2f2f2; margin-bottom: 1em; line-height: 50px; }
-.inner.newsletter-signup { margin-top: 1.5em; }
-.newsletter-signup input[type="submit"] { background: #e85c41; border-radius: 4px; color: white; padding: 0.5em 0.7em; font-size: 0.7em; border: none; }
-.newsletter-signup input[type="submit"]:hover { background: #db3a1b; }
-.newsletter-signup input[type="email"] { margin: 0 .5em; font-size: 0.8em; padding: 0.3em; width: 15em; }
 
 .cardboard { background: url("/img/cardboard.jpg") center left no-repeat; }
 

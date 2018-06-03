@@ -19,13 +19,6 @@
       <%= yield %>
     </div>
 
-    <div class="social">
-      <ul>
-        <li class="facebook"><div class="fb-share-button" data-href="<%= page_url(@item)  %>" data-layout="button_count"></div></li>
-        <li class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-via="jakubgarfield" data-hashtags="travel">Tweet</a></li>
-      </ul>
-    </div>
-
     <% if @item[:map_coordinates] %>
       <div class="map">
         <div id="map-canvas"></div>
@@ -67,19 +60,8 @@
       </section>
     <% end %>
 
-    <section class="inner newsletter-signup">
-      <form action="//barakuba.us13.list-manage.com/subscribe/post?u=f3468acd0f9b5b95b5bed3a20&amp;id=6649f58700" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <label for="mce-EMAIL2">Signup to our newsletter</label>
-        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL2" placeholder="Email address" />
-        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
-        <input type="text" name="b_f3468acd0f9b5b95b5bed3a20_6649f58700" tabindex="-1" value="" style="position: absolute; left: -5000px;" aria-hidden="true" />
-      </form>
-    </section>
-
     <footer>
-      <div class="comments">
-        <div id="disqus_thread"></div>
-      </div>
+      <p>Did you like the article? <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#x3a;&#x6a;&#x61;&#x6b;&#x75;&#x62;&#x2e;&#99;&#104;&#x6f;&#x64;&#111;&#117;&#x6e;&#115;&#x6b;&#x79;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#111;&#x6d;?subject=<%= @item[:title] %>" target="_blank">Send us a comment!</a></p>
     </footer>
   </article>
 
@@ -92,11 +74,4 @@
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
   </div>
-
-  <div id="fb-root"></div>
-  <script type="text/javascript"> var disqus_shortname = 'kiwischodounskynet'; (function() { var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })(); </script><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <script>
-    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-    (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=1478320385777176"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
-  </script>
 <% end %>
