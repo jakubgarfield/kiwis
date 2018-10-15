@@ -103,5 +103,13 @@ L.Control.Elevation=L.Control.extend({options:{position:"topright",theme:"lime-t
       }
     }
   }
+
+  if (window.mapCoordinates !== undefined) {
+    var map = new L.Map('leaflet-map').setView([window.mapCoordinates.x, window.mapCoordinates.y], window.mapCoordinates.zoom);
+
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+  }
 });
 
