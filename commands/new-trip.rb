@@ -39,7 +39,7 @@ run do |opts, args, cmd|
     post.puts "image: 1"
     post.puts "map_zoom: 10"
     post.puts "map_coordinates: "
-    post.puts "gpx: false"
+    post.puts "gpx: true"
     post.puts "---\n\n"
   end
 

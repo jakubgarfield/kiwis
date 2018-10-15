@@ -20,9 +20,11 @@
     </div>
 
     <% if @item[:map_coordinates] %>
-      <div class="map">
-        <div id="map-canvas"></div>
-      </div>
+      <section class="map">
+        <article>
+          <div id="leaflet-map"></div>
+        </article>
+      </section>
     <% end %>
 
     <% if @item[:gpx]  %>
