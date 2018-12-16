@@ -145,6 +145,6 @@ A few days later the phone rang again. It was my mate Honza.
 
 !![Where the ocean meets the land](16)
 
-I hung up and looked into the distance. West Coast is harsh and primal in its essence. It is the prestige university of surfing. The Harvard and Oxford of New Zealand. When we left Christchurch we were just boys but we came back as men.
+I hung up and looked into the distance. West Coast is harsh and primal in its essence. It is the most prestigious university of surfing. The Harvard and Oxford of New Zealand. When we left Christchurch we were just boys but we came back as men.
 
-Or most likely not. Nevertheless, we had heaps of fun!
+Or most likely not. Whatevs. Nevertheless, we had heaps of fun!
