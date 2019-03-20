@@ -3,7 +3,7 @@ title: Avalanche Peak and autumn in Arthur's Pass
 created_at: 2018-11-09 18:13:10 +1300
 description: A lovely autumn weekend in South Island when we stretched our legs during an arduous hike to Avalanche Peak, the 1833m summit with grand views of Canterbury landscape.
 kind: article
-tags: [Arthur’s Pass, Avalanche Peak, Bealey Valley Track, Hike, South Island, Trip, Weekend]
+tags: [New Zealand, Arthur’s Pass, Avalanche Peak, Bealey Valley Track, Hike, South Island, Trip, Weekend]
 image: 48
 gpx: true
 ---

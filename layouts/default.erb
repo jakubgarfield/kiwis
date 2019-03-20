@@ -52,8 +52,7 @@
       <nav>
         <ul>
           <li><%= link_to("archive", "/archive/") %> &middot; </li>
-          <li><%= link_to("gallery", "/gallery/") %> &middot; </li>
-          <li><%= link_to("tags", "/tags/") %></li>
+          <li><%= link_to("gallery", "/gallery/") %></li>
         </ul>
       </nav>
     </header>
@@ -63,7 +62,7 @@
     </main>
 
     <footer>
-      <p>&copy; <%= Time.now.year %><br /><a href="https://nz.linkedin.com/in/barbora-h%C3%A1jkov%C3%A1-62549784">Barbora Hájková</a> &amp; <a href="https://chodounsky.net">Jakub Chodounský</a><br /><%= link_to("RSS", "http://feeds.feedburner.com/barakuba") %> &middot; <%= link_to("Privacy Policy", "/privacy-policy/") %></p>
+      <p>&copy; <%= Time.now.year %><br /><a href="https://nz.linkedin.com/in/barbora-h%C3%A1jkov%C3%A1-62549784">Barbora Hájková</a> &amp; <a href="https://chodounsky.net">Jakub Chodounský</a><br /><%= link_to("RSS", "http://feeds.feedburner.com/barakuba") %> &middot; <%= link_to("Privacy Policy", "/privacy-policy/") %> &middot; <%= link_to("Tags", "/tags/") %></p>
     </footer>
   </div>
   <!--[if lt IE 9]><script>document.createElement('header'); document.createElement('nav'); document.createElement('section'); document.createElement('article'); document.createElement('aside');document.createElement('footer');document.createElement('main');</script><![endif]-->
