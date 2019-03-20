@@ -48,7 +48,7 @@
 
   <div class="main">
     <header>
-      <h1><a href="/">Bára & Kuba on the road</a></h1>
+      <h1><a href="/">Bára & Kuba On the Road</a></h1>
       <nav>
         <ul>
           <li><a href="/archive/">archive</a> &middot; </li>
